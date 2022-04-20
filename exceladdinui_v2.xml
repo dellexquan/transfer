@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-20T09:31:46.952Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="l2QXfOdFNsvM1RP5ZHD1" version="17.4.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-04-20T09:35:16.452Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="eoysY9aI0EvtN7vNc-io" version="17.4.5" type="github" pages="6">
   <diagram id="BnhVABmBx2cmhO1nmNdT" name="Login / Logout">
     <mxGraphModel dx="1746" dy="1005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -313,12 +313,6 @@
         <mxCell id="TaHEeOYeVmQGY88Sf-Hc-62" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#0085FC;fillColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="870" y="650" width="120" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="TaHEeOYeVmQGY88Sf-Hc-96" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#FFFFFF;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.home;fontSize=12;fontColor=#0085FC;" vertex="1" parent="1">
-          <mxGeometry x="884" y="661" width="20" height="19" as="geometry" />
-        </mxCell>
-        <mxCell id="TaHEeOYeVmQGY88Sf-Hc-97" value="&lt;font style=&quot;font-size: 12px&quot; color=&quot;#ffffff&quot;&gt;Home&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="909.5" y="655.5" width="60.5" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="TaHEeOYeVmQGY88Sf-Hc-103" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#FFFFFF;shadow=0;dashed=0;shape=mxgraph.ios7.icons.share;fontSize=12;fontColor=#FFFFFF;fillColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="887.75" y="699" width="12.5" height="15.5" as="geometry" />
         </mxCell>
@@ -339,6 +333,15 @@
         </mxCell>
         <mxCell id="TaHEeOYeVmQGY88Sf-Hc-110" value="&lt;font style=&quot;font-size: 12px&quot; color=&quot;#ffffff&quot;&gt;File Info&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="910.5" y="757.5" width="60.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y3L-t0fM42SThlvaqraD-1" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=12;strokeColor=#0085FC;fillColor=#0085FC;" vertex="1" parent="1">
+          <mxGeometry x="870" y="651.5" width="120" height="38.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TaHEeOYeVmQGY88Sf-Hc-96" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#FFFFFF;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.home;fontSize=12;fontColor=#0085FC;" vertex="1" parent="1">
+          <mxGeometry x="883" y="661.25" width="20" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="TaHEeOYeVmQGY88Sf-Hc-97" value="&lt;font style=&quot;font-size: 12px&quot; color=&quot;#ffffff&quot;&gt;Home&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="908.5" y="655.75" width="60.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
