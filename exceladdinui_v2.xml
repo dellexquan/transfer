@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-22T05:32:57.282Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="Pq5FfwtPXYD0aKfJIAzM" version="17.4.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-04-22T05:33:44.442Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="VF_h3ZqD4lJqJzFPlwf-" version="17.4.6" type="github" pages="6">
   <diagram id="BnhVABmBx2cmhO1nmNdT" name="Login / Logout">
     <mxGraphModel dx="1746" dy="1005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2138,6 +2138,40 @@
         </mxCell>
         <mxCell id="3puYtbtY6u3iz0A6GZmA-35" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Basic:&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dG5FvJEUAlULsCzGr6MG-1">
           <mxGeometry x="880" y="70" width="248" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3puYtbtY6u3iz0A6GZmA-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="dG5FvJEUAlULsCzGr6MG-1">
+          <mxGeometry x="1320" y="120" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3puYtbtY6u3iz0A6GZmA-37" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.line;strokeColor=#999999;fontSize=18;" vertex="1" parent="dG5FvJEUAlULsCzGr6MG-1">
+          <mxGeometry x="1320" y="161" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3puYtbtY6u3iz0A6GZmA-38" value="&lt;font style=&quot;font-size: 12px&quot; color=&quot;#ffffff&quot;&gt;Welcome, Dellex Quan&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="dG5FvJEUAlULsCzGr6MG-1">
+          <mxGeometry x="1420" y="131" width="131" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3puYtbtY6u3iz0A6GZmA-39" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;u&gt;Logout&lt;/u&gt;&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=none;fontColor=#0085FC;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="dG5FvJEUAlULsCzGr6MG-1">
+          <mxGeometry x="1546" y="127" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3puYtbtY6u3iz0A6GZmA-40" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dG5FvJEUAlULsCzGr6MG-1">
+          <mxGeometry x="1320" y="171" width="290" height="429" as="geometry" />
+        </mxCell>
+        <mxCell id="3puYtbtY6u3iz0A6GZmA-41" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/web-ui-3/128/Menu-2-128.png;fontSize=12;fontColor=#FFFFFF;fillColor=#000000;" vertex="1" parent="dG5FvJEUAlULsCzGr6MG-1">
+          <mxGeometry x="1330" y="133" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="3puYtbtY6u3iz0A6GZmA-42" value="&lt;  BASIC" style="dashed=0;shape=rect;strokeColor=none;fillColor=#000000;resizeWidth=1;fontSize=12;fontColor=#FFFFFF;verticalAlign=middle;align=left;spacingLeft=16;strokeWidth=0;" vertex="1" parent="dG5FvJEUAlULsCzGr6MG-1">
+          <mxGeometry x="1320" y="552" width="290" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="3puYtbtY6u3iz0A6GZmA-43" value="DETAIL  &gt;" style="dashed=0;shape=rect;strokeColor=none;fillColor=none;fontSize=12;fontColor=#FFFFFF;verticalAlign=middle;align=right;spacingRight=16;" vertex="1" parent="3puYtbtY6u3iz0A6GZmA-42">
+          <mxGeometry x="1" width="100" height="48" relative="1" as="geometry">
+            <mxPoint x="-100" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3puYtbtY6u3iz0A6GZmA-44" value="" style="dashed=0;shape=mxgraph.gmdl.progressBar;strokeColor=#4285F4;strokeWidth=3;dx1=0.7;" vertex="1" parent="3puYtbtY6u3iz0A6GZmA-42">
+          <mxGeometry x="0.5" y="0.5" width="112" height="10" relative="1" as="geometry">
+            <mxPoint x="-66" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3puYtbtY6u3iz0A6GZmA-45" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Detail:&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dG5FvJEUAlULsCzGr6MG-1">
+          <mxGeometry x="1320" y="71" width="248" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
