@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-22T06:01:04.536Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="Yqi7TJkeWzjUgkvhFeG2" version="17.4.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-04-22T06:02:36.036Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="0NcW0nX_ngYzyN6rlpYO" version="17.4.6" type="github" pages="6">
   <diagram id="BnhVABmBx2cmhO1nmNdT" name="Login / Logout">
     <mxGraphModel dx="1746" dy="1005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2340,6 +2340,9 @@
         </mxCell>
         <mxCell id="GDPxQyV7SlzSXEV347Bk-0" value="&lt;font style=&quot;font-size: 11px&quot;&gt;&amp;lt;&amp;lt; Prev 1 2 3 Next &amp;gt;&amp;gt;&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=left;html=1;shape=mxgraph.mockup.navigation.pagination;linkText=;fontSize=17;fontColor=#0000ff;fontStyle=4;labelBackgroundColor=#FFE599;fillColor=#E6E6E6;" vertex="1" parent="dG5FvJEUAlULsCzGr6MG-1">
           <mxGeometry x="1330" y="475" width="137.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P1Nea51ZG3kdch57wnqW-0" value="&lt;p style=&quot;box-sizing: border-box ; margin: 0px 0px 16px ; color: rgba(0 , 0 , 0 , 0.9) ; font-size: 15px ; text-align: left&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 229 , 153)&quot;&gt;data info&lt;/span&gt;&lt;/p&gt;&lt;ul style=&quot;box-sizing: border-box ; padding: 0px 0px 0px 32px ; margin: 0px ; color: rgba(0 , 0 , 0 , 0.9) ; font-size: 15px ; text-align: left&quot;&gt;&lt;li style=&quot;box-sizing: border-box ; list-style: inherit ; margin-top: 0.5em ; margin-bottom: 0.5em&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 229 , 153)&quot;&gt;基本信息只读&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; list-style: inherit ; margin-top: 4px ; margin-bottom: 0.5em&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 229 , 153)&quot;&gt;详细信息可更新&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="dG5FvJEUAlULsCzGr6MG-1">
+          <mxGeometry x="860" y="890" width="310" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
