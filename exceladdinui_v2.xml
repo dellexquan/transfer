@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-24T06:23:35.309Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="Y4LwfIWrAttExbLS5ZkE" version="17.4.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-04-24T06:25:44.307Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="oKE84_tEtZ9XfH1VR8B8" version="17.4.6" type="github" pages="6">
   <diagram id="BnhVABmBx2cmhO1nmNdT" name="Login / Logout">
     <mxGraphModel dx="1746" dy="1005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1180,11 +1180,20 @@
         <mxCell id="xXZVNfq5mkKDBsvmZteO-0" value="NPD Tcoid Select" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;" vertex="1" parent="ybS-OLOszojcwdfD759k-1">
           <mxGeometry x="896" y="1230" width="664" height="448" as="geometry" />
         </mxCell>
-        <mxCell id="MJ1TkAhoXLu1A1WUXNC0-0" value="Search" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.searchBox;strokeColor=#999999;mainText=;strokeColor2=#008cff;fontColor=#666666;fontSize=17;align=left;spacingLeft=3;labelBackgroundColor=#FFE599;fillColor=#E6E6E6;" vertex="1" parent="ybS-OLOszojcwdfD759k-1">
-          <mxGeometry x="1220" y="140" width="270" height="30" as="geometry" />
+        <mxCell id="MJ1TkAhoXLu1A1WUXNC0-0" value="Company ID / Name" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.searchBox;strokeColor=#999999;mainText=;strokeColor2=#008cff;fontColor=#666666;fontSize=17;align=left;spacingLeft=3;labelBackgroundColor=#FFE599;fillColor=#E6E6E6;" vertex="1" parent="ybS-OLOszojcwdfD759k-1">
+          <mxGeometry x="905" y="1270" width="315" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XS2APv5UMPLkbm_B69AM-0" value="Search" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.searchBox;strokeColor=#999999;mainText=;strokeColor2=#008cff;fontColor=#666666;fontSize=17;align=left;spacingLeft=3;labelBackgroundColor=#FFE599;fillColor=#E6E6E6;" vertex="1" parent="ybS-OLOszojcwdfD759k-1">
-          <mxGeometry x="1230" y="150" width="270" height="30" as="geometry" />
+        <mxCell id="XS2APv5UMPLkbm_B69AM-1" value="2021" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=17;spacingLeft=3;" vertex="1" parent="ybS-OLOszojcwdfD759k-1">
+          <mxGeometry x="1270" y="1270" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XS2APv5UMPLkbm_B69AM-2" value="Year:" style="fillColor=none;strokeColor=none;align=left;fontSize=12;" vertex="1" parent="ybS-OLOszojcwdfD759k-1">
+          <mxGeometry x="1231" y="1265" width="39" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XS2APv5UMPLkbm_B69AM-3" value="Local" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=17;spacingLeft=3;" vertex="1" parent="ybS-OLOszojcwdfD759k-1">
+          <mxGeometry x="1434" y="1270" width="116" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XS2APv5UMPLkbm_B69AM-4" value="Datasource: " style="fillColor=none;strokeColor=none;align=left;fontSize=12;" vertex="1" parent="ybS-OLOszojcwdfD759k-1">
+          <mxGeometry x="1364" y="1265" width="78" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
