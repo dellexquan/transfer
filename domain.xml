@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-30T00:52:18.726Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="k7NZe36qQy7M_bHLgfy1" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-30T00:53:58.960Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="YnnqpyFgPOyX-ZXz8vrU" version="17.5.0" type="github">
   <diagram id="K1LlmuxtbeXu1QyfzIAG" name="Data Processing">
     <mxGraphModel dx="1746" dy="1033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -30,7 +30,7 @@
             <mxPoint x="440" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uU3ZMnEhdrH4O-rOAmjS-3" value="Period" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="uU3ZMnEhdrH4O-rOAmjS-3" value="Period" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="270" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uU3ZMnEhdrH4O-rOAmjS-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uU3ZMnEhdrH4O-rOAmjS-6" target="uU3ZMnEhdrH4O-rOAmjS-12" edge="1">
