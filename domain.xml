@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T01:45:03.409Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="uOVF8plmqVko9uidNb1L" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-02T01:52:50.275Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="-C1bnNBXug0d8JNJ35Yh" version="17.5.0" type="github">
   <diagram id="K1LlmuxtbeXu1QyfzIAG" name="Data Processing">
     <mxGraphModel dx="2573" dy="1005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cfk2IaEA76jJHWDtBDvi-7" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="430" width="250" height="230" as="geometry" />
+        </mxCell>
         <mxCell id="3GH2XT7Tv8yCn4VKnPiL-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="100" y="160" width="630" height="260" as="geometry" />
         </mxCell>
@@ -50,6 +53,12 @@
         <mxCell id="uU3ZMnEhdrH4O-rOAmjS-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uU3ZMnEhdrH4O-rOAmjS-6" target="uU3ZMnEhdrH4O-rOAmjS-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="cfk2IaEA76jJHWDtBDvi-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#0085FC;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="cfk2IaEA76jJHWDtBDvi-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="337" y="370" as="sourcePoint" />
+            <mxPoint x="-140" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="uU3ZMnEhdrH4O-rOAmjS-6" value="Data Format&lt;br&gt;(IPD+NPD)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="277" y="310" width="120" height="60" as="geometry" />
         </mxCell>
@@ -71,6 +80,9 @@
         <mxCell id="uU3ZMnEhdrH4O-rOAmjS-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uU3ZMnEhdrH4O-rOAmjS-12" target="uU3ZMnEhdrH4O-rOAmjS-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="cfk2IaEA76jJHWDtBDvi-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;fontColor=#000000;strokeColor=#3399FF;" edge="1" parent="1" source="uU3ZMnEhdrH4O-rOAmjS-12" target="cfk2IaEA76jJHWDtBDvi-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uU3ZMnEhdrH4O-rOAmjS-12" value="&lt;font color=&quot;#ff0000&quot;&gt;Data Version&lt;br&gt;(IPD+NPD)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="354" y="450" width="120" height="60" as="geometry" />
         </mxCell>
@@ -78,6 +90,9 @@
           <mxGeometry x="530" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7-xZraP2NdXuCusr-tq9-5" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" parent="1" source="uU3ZMnEhdrH4O-rOAmjS-18" target="7-xZraP2NdXuCusr-tq9-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cfk2IaEA76jJHWDtBDvi-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;strokeColor=#3399FF;" edge="1" parent="1" source="uU3ZMnEhdrH4O-rOAmjS-18" target="cfk2IaEA76jJHWDtBDvi-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uU3ZMnEhdrH4O-rOAmjS-18" value="Company" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -101,7 +116,7 @@
           <mxGeometry x="750" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uU3ZMnEhdrH4O-rOAmjS-29" value="&lt;p class=&quot;x_MsoListParagraph&quot; style=&quot;margin: 1em 0px 1em 18pt ; color: rgb(46 , 48 , 51) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; text-indent: -18pt&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;1.&lt;span style=&quot;font-stretch: normal ; font-size: 7pt ; line-height: normal ; font-family: &amp;#34;times new roman&amp;#34;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;未来&lt;span lang=&quot;EN-US&quot;&gt;Masterlist CRM&lt;/span&gt;功能和数据处理功能需要切开成两个独立的系统，&lt;span lang=&quot;EN-US&quot;&gt;CRM&lt;/span&gt;的公司和数据处理系统的公司联系需要解耦弱化&lt;span lang=&quot;EN-US&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;x_MsoListParagraph&quot; style=&quot;margin: 1em 0px 1em 18pt ; color: rgb(46 , 48 , 51) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; text-indent: -18pt&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;2.&lt;span style=&quot;font-stretch: normal ; font-size: 7pt ; line-height: normal ; font-family: &amp;#34;times new roman&amp;#34;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;未来&lt;span lang=&quot;EN-US&quot;&gt;Datasouce&lt;/span&gt;概念更加趋向于&lt;span lang=&quot;EN-US&quot;&gt;Job Methodology&lt;/span&gt;的概念&lt;span lang=&quot;EN-US&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;x_MsoListParagraph&quot; style=&quot;margin: 1em 0px 1em 18pt ; color: rgb(46 , 48 , 51) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; text-indent: -18pt&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;3.&lt;span style=&quot;font-stretch: normal ; font-size: 7pt ; line-height: normal ; font-family: &amp;#34;times new roman&amp;#34;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;未来&lt;span lang=&quot;EN-US&quot;&gt;Position&lt;/span&gt;体系需要简化，只保留标准职位，其余的功能包括&lt;span lang=&quot;EN-US&quot;&gt;category, roll-up, customize&lt;/span&gt;都全部由&lt;span lang=&quot;EN-US&quot;&gt;Report&lt;/span&gt;提供&lt;span lang=&quot;EN-US&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;x_MsoListParagraph&quot; style=&quot;margin: 1em 0px 1em 18pt ; color: rgb(46 , 48 , 51) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; text-indent: -18pt&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;4.&lt;span style=&quot;font-stretch: normal ; font-size: 7pt ; line-height: normal ; font-family: &amp;#34;times new roman&amp;#34;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;未来&lt;span lang=&quot;EN-US&quot;&gt;CRM&lt;/span&gt;中的公司都是&lt;span lang=&quot;EN-US&quot;&gt;OE Company&lt;/span&gt;，数据处理系统的公司全部都是&lt;span lang=&quot;EN-US&quot;&gt;Data Company&lt;/span&gt;，&lt;span lang=&quot;EN-US&quot;&gt;Data Company&lt;/span&gt;可以由一个&lt;span lang=&quot;EN-US&quot;&gt;Group Company Group&lt;/span&gt;起来。&lt;/p&gt;&lt;p class=&quot;x_MsoListParagraph&quot; style=&quot;margin: 1em 0px 1em 18pt ; color: rgb(46 , 48 , 51) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; text-indent: -18pt&quot;&gt;5. &amp;nbsp; 未来Company下面只挂Released Data Version，不会挂CIW以及与之相关的Initial Data Version以及Raw Data Version。所有CIW都保存在外挂的Excel Auditing Adding中。&lt;/p&gt;&lt;p class=&quot;x_MsoListParagraph&quot; style=&quot;margin: 1em 0px 1em 18pt ; color: rgb(46 , 48 , 51) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; text-indent: -18pt&quot;&gt;6. &amp;nbsp; 未来Report会支持职位的Rollup，Customize，Category，同时会支持公司的Virtual Group&lt;/p&gt;&lt;p class=&quot;x_MsoListParagraph&quot; style=&quot;margin: 1em 0px 1em 18pt ; color: rgb(46 , 48 , 51) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; text-indent: -18pt&quot;&gt;&lt;span style=&quot;text-indent: -18pt&quot;&gt;General Position?&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;x_MsoListParagraph&quot; style=&quot;margin: 1em 0px 1em 18pt ; color: rgb(46 , 48 , 51) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; text-indent: -18pt&quot;&gt;&lt;span style=&quot;text-indent: -18pt&quot;&gt;NPD Assign?&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;x_MsoListParagraph&quot; style=&quot;margin: 1em 0px 1em 18pt ; color: rgb(46 , 48 , 51) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; text-indent: -18pt&quot;&gt;Report Group Company--&amp;gt;NPD??&lt;/p&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFE599;align=left;" parent="1" vertex="1">
-          <mxGeometry x="124" y="520" width="610" height="470" as="geometry" />
+          <mxGeometry x="277" y="520" width="610" height="470" as="geometry" />
         </mxCell>
         <mxCell id="7-xZraP2NdXuCusr-tq9-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.558;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#3399FF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7-xZraP2NdXuCusr-tq9-1" target="uU3ZMnEhdrH4O-rOAmjS-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -120,6 +135,26 @@
         </mxCell>
         <mxCell id="cfk2IaEA76jJHWDtBDvi-1" value="&lt;span&gt;Data File&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="170" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cfk2IaEA76jJHWDtBDvi-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#3399FF;" edge="1" parent="1" source="cfk2IaEA76jJHWDtBDvi-4" target="cfk2IaEA76jJHWDtBDvi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cfk2IaEA76jJHWDtBDvi-6" value="1: n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="cfk2IaEA76jJHWDtBDvi-5">
+          <mxGeometry x="-0.0846" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfk2IaEA76jJHWDtBDvi-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="cfk2IaEA76jJHWDtBDvi-4" target="cfk2IaEA76jJHWDtBDvi-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cfk2IaEA76jJHWDtBDvi-4" value="&lt;span&gt;CIW File&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-205" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cfk2IaEA76jJHWDtBDvi-8" value="History Mapping" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-205" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cfk2IaEA76jJHWDtBDvi-12" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Excel Addin&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="430" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
