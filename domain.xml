@@ -1,47 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T02:48:45.431Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="L3niXo746TAQN7d8Dpzq" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-13T02:51:49.723Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="bLrt-K_Vrake29s565Co" version="18.0.2" type="github">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="998" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6Ccn84so_OX4mt-N5_6L-35" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="44" y="110" width="740" height="335" as="geometry" />
+          <mxGeometry x="40" y="110" width="790" height="335" as="geometry" />
         </mxCell>
         <mxCell id="6Ccn84so_OX4mt-N5_6L-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="40" y="645" width="740" height="335" as="geometry" />
+          <mxGeometry x="40" y="645" width="790" height="335" as="geometry" />
         </mxCell>
         <mxCell id="cGWvwMXU6NqgUGs_M9-s-1" value="&lt;p class=&quot;x_MsoListParagraph&quot; style=&quot;margin: 1em 0px 1em 18pt ; color: rgb(46 , 48 , 51) ; font-family: , &amp;quot;blinkmacsystemfont&amp;quot; , &amp;quot;pingfang sc&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , sans-serif ; font-size: 14px ; text-indent: -18pt&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;1.&lt;span style=&quot;font-stretch: normal ; font-size: 7pt ; line-height: normal ; font-family: &amp;quot;times new roman&amp;quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;未来&lt;span lang=&quot;EN-US&quot;&gt;Masterlist CRM&lt;/span&gt;功能和数据处理功能需要切开成两个独立的系统，&lt;span lang=&quot;EN-US&quot;&gt;CRM&lt;/span&gt;的公司和数据处理系统的公司联系需要解耦弱化&lt;span lang=&quot;EN-US&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;x_MsoListParagraph&quot; style=&quot;margin: 1em 0px 1em 18pt ; color: rgb(46 , 48 , 51) ; font-family: , &amp;quot;blinkmacsystemfont&amp;quot; , &amp;quot;pingfang sc&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , sans-serif ; font-size: 14px ; text-indent: -18pt&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;2.&lt;span style=&quot;font-stretch: normal ; font-size: 7pt ; line-height: normal ; font-family: &amp;quot;times new roman&amp;quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;未来&lt;span lang=&quot;EN-US&quot;&gt;Datasouce&lt;/span&gt;概念更加趋向于&lt;span lang=&quot;EN-US&quot;&gt;Job Methodology&lt;/span&gt;的概念&lt;span lang=&quot;EN-US&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;x_MsoListParagraph&quot; style=&quot;margin: 1em 0px 1em 18pt ; color: rgb(46 , 48 , 51) ; font-family: , &amp;quot;blinkmacsystemfont&amp;quot; , &amp;quot;pingfang sc&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , sans-serif ; font-size: 14px ; text-indent: -18pt&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;3.&lt;span style=&quot;font-stretch: normal ; font-size: 7pt ; line-height: normal ; font-family: &amp;quot;times new roman&amp;quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;未来&lt;span lang=&quot;EN-US&quot;&gt;Position&lt;/span&gt;体系需要简化，只保留标准职位，其余的功能包括&lt;span lang=&quot;EN-US&quot;&gt;category, roll-up, customize&lt;/span&gt;都全部由&lt;span lang=&quot;EN-US&quot;&gt;Report&lt;/span&gt;提供&lt;span lang=&quot;EN-US&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;x_MsoListParagraph&quot; style=&quot;margin: 1em 0px 1em 18pt ; color: rgb(46 , 48 , 51) ; font-family: , &amp;quot;blinkmacsystemfont&amp;quot; , &amp;quot;pingfang sc&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , sans-serif ; font-size: 14px ; text-indent: -18pt&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;4.&lt;span style=&quot;font-stretch: normal ; font-size: 7pt ; line-height: normal ; font-family: &amp;quot;times new roman&amp;quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;未来&lt;span lang=&quot;EN-US&quot;&gt;CRM&lt;/span&gt;中的公司都是&lt;span lang=&quot;EN-US&quot;&gt;OE Company&lt;/span&gt;，数据处理系统的公司全部都是&lt;span lang=&quot;EN-US&quot;&gt;Data Company&lt;/span&gt;，&lt;span lang=&quot;EN-US&quot;&gt;Data Company&lt;/span&gt;可以由一个&lt;span lang=&quot;EN-US&quot;&gt;Group 把Company Group&lt;/span&gt;起来。&lt;/p&gt;&lt;p class=&quot;x_MsoListParagraph&quot; style=&quot;margin: 1em 0px 1em 18pt ; color: rgb(46 , 48 , 51) ; font-family: , &amp;quot;blinkmacsystemfont&amp;quot; , &amp;quot;pingfang sc&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , sans-serif ; font-size: 14px ; text-indent: -18pt&quot;&gt;5. &amp;nbsp; 未来Company下面只挂Released Data Version，不会挂Initial Data Version以及Raw Data Version。&lt;/p&gt;&lt;p class=&quot;x_MsoListParagraph&quot; style=&quot;margin: 1em 0px 1em 18pt ; color: rgb(46 , 48 , 51) ; font-family: , &amp;quot;blinkmacsystemfont&amp;quot; , &amp;quot;pingfang sc&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , sans-serif ; font-size: 14px ; text-indent: -18pt&quot;&gt;6. &amp;nbsp; 未来Report会支持职位的Rollup，Customize，Category，同时会支持公司的Virtual Group&lt;/p&gt;&lt;p class=&quot;x_MsoListParagraph&quot; style=&quot;margin: 1em 0px 1em 18pt ; color: rgb(46 , 48 , 51) ; font-family: , &amp;quot;blinkmacsystemfont&amp;quot; , &amp;quot;pingfang sc&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , sans-serif ; font-size: 14px ; text-indent: -18pt&quot;&gt;7. Data File会指定一个NPD Company，以及每条样本都会指定一个Assign BU。一旦完成Auditing，点击发布，Data File会将NPD写到对应的NPD Company下面，每个Assign的BU对会的Release Data Version。&lt;/p&gt;&lt;p class=&quot;x_MsoListParagraph&quot; style=&quot;margin: 1em 0px 1em 18pt ; color: rgb(46 , 48 , 51) ; font-family: , &amp;quot;blinkmacsystemfont&amp;quot; , &amp;quot;pingfang sc&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , sans-serif ; font-size: 14px ; text-indent: -18pt&quot;&gt;8. Format和Job Methodology去除联系，意味着只要Profile相同，都可以相互转换，未来Data Version的Format转换会简化，一个报告可以由不同Format的Data Version生成，系统会自动转换。&lt;/p&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFE599;align=left;" parent="1" vertex="1">
           <mxGeometry x="120" y="1000" width="610" height="540" as="geometry" />
         </mxCell>
         <mxCell id="266NCurPV5k0CP-zMK8G-2" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="40" y="460" width="740" height="170" as="geometry" />
+          <mxGeometry x="40" y="460" width="790" height="170" as="geometry" />
         </mxCell>
         <mxCell id="266NCurPV5k0CP-zMK8G-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;" parent="266NCurPV5k0CP-zMK8G-2" vertex="1">
-          <mxGeometry width="740" height="170" as="geometry" />
+          <mxGeometry width="790" height="170" as="geometry" />
         </mxCell>
         <mxCell id="E0vA7H6eb9vlZtTDTTt5-1" value="Job Methodology" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;flipH=1;" parent="266NCurPV5k0CP-zMK8G-2" vertex="1">
-          <mxGeometry x="462.5" y="50" width="111.00000000000001" height="60" as="geometry" />
+          <mxGeometry x="400.75" y="50" width="111.00000000000001" height="60" as="geometry" />
         </mxCell>
         <mxCell id="E0vA7H6eb9vlZtTDTTt5-2" value="Period" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;flipH=1;" parent="266NCurPV5k0CP-zMK8G-2" vertex="1">
-          <mxGeometry x="314.5" y="50" width="111.00000000000001" height="60" as="geometry" />
+          <mxGeometry x="270.75" y="50" width="111.00000000000001" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jnBwOZBeJCSx4qSt9-tQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="266NCurPV5k0CP-zMK8G-2" source="4AjCPMK1RB_Fguel-SYD-1" target="jnBwOZBeJCSx4qSt9-tQ-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4AjCPMK1RB_Fguel-SYD-1" value="Position" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;flipH=1;" parent="266NCurPV5k0CP-zMK8G-2" vertex="1">
-          <mxGeometry x="610.0000000000001" y="10" width="111.00000000000001" height="60" as="geometry" />
+          <mxGeometry x="531.75" y="50" width="111.00000000000001" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R1zRhRd65KpjveZQEbhm-1" value="Profiles" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;flipH=1;" parent="266NCurPV5k0CP-zMK8G-2" vertex="1">
-          <mxGeometry x="170" y="50" width="111.00000000000001" height="60" as="geometry" />
+          <mxGeometry x="139.75" y="50" width="111.00000000000001" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vfCu4ELRSZ_BGSzA5d1h-1" value="Company(Group)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;flipH=1;" parent="266NCurPV5k0CP-zMK8G-2" vertex="1">
-          <mxGeometry x="18.5" y="50" width="111.00000000000001" height="60" as="geometry" />
+          <mxGeometry x="9.25" y="50" width="111.00000000000001" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4AjCPMK1RB_Fguel-SYD-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="266NCurPV5k0CP-zMK8G-2" source="E0vA7H6eb9vlZtTDTTt5-1" target="4AjCPMK1RB_Fguel-SYD-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jnBwOZBeJCSx4qSt9-tQ-1" value="Position Set" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="266NCurPV5k0CP-zMK8G-2">
-          <mxGeometry x="590" y="95" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Wnu2VR4HXb2gVrCqdAh8-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#007FFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="266NCurPV5k0CP-zMK8G-2" source="4AjCPMK1RB_Fguel-SYD-1" target="jnBwOZBeJCSx4qSt9-tQ-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="657.75" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Wnu2VR4HXb2gVrCqdAh8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="YszbQPq2DHND3xWl3AUt-1" target="YTVoeeHsCV_gHClcVVxG-1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -68,16 +68,16 @@
         <mxCell id="YszbQPq2DHND3xWl3AUt-1" value="Survey" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="430" y="670" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YszbQPq2DHND3xWl3AUt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="E0vA7H6eb9vlZtTDTTt5-2" target="YszbQPq2DHND3xWl3AUt-1" edge="1">
+        <mxCell id="YszbQPq2DHND3xWl3AUt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="E0vA7H6eb9vlZtTDTTt5-2" target="YszbQPq2DHND3xWl3AUt-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YszbQPq2DHND3xWl3AUt-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="E0vA7H6eb9vlZtTDTTt5-1" edge="1">
+        <mxCell id="YszbQPq2DHND3xWl3AUt-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="670" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="558" y="620" />
-              <mxPoint x="490" y="620" />
+              <mxPoint x="490" y="570" />
             </Array>
+            <mxPoint x="490" y="570" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wARddxhWHyKgYeD1mlGO-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="YTVoeeHsCV_gHClcVVxG-1" target="wARddxhWHyKgYeD1mlGO-1" edge="1">
@@ -176,17 +176,14 @@
         <mxCell id="6Ccn84so_OX4mt-N5_6L-17" value="Report Data Pool (IPD+NPD)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="353.5" y="132.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6Ccn84so_OX4mt-N5_6L-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=#007FFF;" parent="1" source="4AjCPMK1RB_Fguel-SYD-1" target="6Ccn84so_OX4mt-N5_6L-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="6Ccn84so_OX4mt-N5_6L-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=#007FFF;" parent="1" source="vfCu4ELRSZ_BGSzA5d1h-1" target="6Ccn84so_OX4mt-N5_6L-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jnBwOZBeJCSx4qSt9-tQ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jnBwOZBeJCSx4qSt9-tQ-1" target="Wnu2VR4HXb2gVrCqdAh8-1">
+        <mxCell id="jnBwOZBeJCSx4qSt9-tQ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jnBwOZBeJCSx4qSt9-tQ-1" target="Wnu2VR4HXb2gVrCqdAh8-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="670" y="740" />
-              <mxPoint x="670" y="740" />
+              <mxPoint x="758" y="680" />
+              <mxPoint x="670" y="680" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -213,9 +210,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jnBwOZBeJCSx4qSt9-tQ-7" value="Dimension Map" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="660" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="670" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jnBwOZBeJCSx4qSt9-tQ-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#007FFF;" edge="1" parent="1" source="R1zRhRd65KpjveZQEbhm-1" target="jnBwOZBeJCSx4qSt9-tQ-7">
+        <mxCell id="jnBwOZBeJCSx4qSt9-tQ-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#007FFF;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="R1zRhRd65KpjveZQEbhm-1" target="jnBwOZBeJCSx4qSt9-tQ-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jnBwOZBeJCSx4qSt9-tQ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="jnBwOZBeJCSx4qSt9-tQ-10" target="6Ccn84so_OX4mt-N5_6L-17">
