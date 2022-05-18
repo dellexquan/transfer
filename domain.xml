@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T08:51:40.353Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="cskQWdwHRDKk5uS55zmz" version="18.0.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-05-18T08:55:42.392Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="wPMLmxLm5sI4xFKlXiXq" version="18.0.7" type="github" pages="7">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1746" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -589,10 +589,22 @@
         <mxCell id="E52GrBCCInaBBSWRMNC4-4" value="+ Numeric&#xa;+ Percentage&#xa;+ Option&#xa;+ String&#xa;+ Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E52GrBCCInaBBSWRMNC4-3">
           <mxGeometry y="26" width="270" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="E52GrBCCInaBBSWRMNC4-6" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.469;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uckMGIxOW1kjvkn4zTUJ-4" target="E52GrBCCInaBBSWRMNC4-1">
+        <mxCell id="E52GrBCCInaBBSWRMNC4-6" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.296;exitY=1.024;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uckMGIxOW1kjvkn4zTUJ-4" target="E52GrBCCInaBBSWRMNC4-1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="360" y="500" as="sourcePoint" />
             <mxPoint x="520" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E52GrBCCInaBBSWRMNC4-8" value="DataVersionRow: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="480" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="E52GrBCCInaBBSWRMNC4-9" value="+ Id: guid&#xa;+ Key: string&#xa;+ Value: jsonb" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="E52GrBCCInaBBSWRMNC4-8">
+          <mxGeometry y="26" width="200" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="E52GrBCCInaBBSWRMNC4-10" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.731;exitY=1.024;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.47;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uckMGIxOW1kjvkn4zTUJ-4" target="E52GrBCCInaBBSWRMNC4-8">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="381.94000000000005" y="410" as="sourcePoint" />
+            <mxPoint x="190" y="465" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
