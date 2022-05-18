@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T05:49:41.482Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="lOB8CJ1KH3Dn6wgDG0TP" version="18.0.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-18T05:50:26.679Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="PenNh8hS7RVoDMhCKLv_" version="18.0.3" type="github" pages="6">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1746" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -497,7 +497,7 @@
         <mxCell id="IkL-cs7m7YMH98_LMBAn-1" value="DataFile: Aggregate Root" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="250" y="160" width="240" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="IkL-cs7m7YMH98_LMBAn-2" value="+ Id: guid&#xa;+ FileId: guid?&#xa;+ FileUrl: string&#xa;+ Name: string&#xa;+ Status: DataFileStatus&#xa;+ ProfileMapId: guid?&#xa;+ ReleaseOwner: guid?&#xa;+ NPDCompanyId: guid?&#xa;+ IPDCompanyList: List&lt;DataFileBU&gt;&#xa;+ IncbTotalCount: int?&#xa;+ Creator: guid&#xa;+ CreateTime: datetime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IkL-cs7m7YMH98_LMBAn-1">
+        <mxCell id="IkL-cs7m7YMH98_LMBAn-2" value="+ Id: guid&#xa;+ FileId: guid?&#xa;+ FileUrl: string&#xa;+ Name: string&#xa;+ Status: DataFileStatus&#xa;+ ProfileMapId: guid?&#xa;+ ReleaseOwnerId: guid?&#xa;+ NPDCompanyId: guid?&#xa;+ IPDCompanyList: List&lt;DataFileBU&gt;&#xa;+ TotalEmployeeCount: int?&#xa;+ Creator: guid&#xa;+ CreateTime: datetime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IkL-cs7m7YMH98_LMBAn-1">
           <mxGeometry y="26" width="240" height="184" as="geometry" />
         </mxCell>
         <mxCell id="IkL-cs7m7YMH98_LMBAn-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="IkL-cs7m7YMH98_LMBAn-1">
@@ -527,7 +527,7 @@
         <mxCell id="pZnXWKMWIwu1hcpN8UQz-1" value="DataFileBu: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-30" y="225" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pZnXWKMWIwu1hcpN8UQz-2" value="+ Id: guid&#xa;+ CompanyId: guid&#xa;+ incbTotalCount: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pZnXWKMWIwu1hcpN8UQz-1">
+        <mxCell id="pZnXWKMWIwu1hcpN8UQz-2" value="+ Id: guid&#xa;+ CompanyId: guid&#xa;+ TotalEmployeeCount: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pZnXWKMWIwu1hcpN8UQz-1">
           <mxGeometry y="26" width="200" height="54" as="geometry" />
         </mxCell>
         <mxCell id="pZnXWKMWIwu1hcpN8UQz-3" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;strokeColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IkL-cs7m7YMH98_LMBAn-2" target="pZnXWKMWIwu1hcpN8UQz-2">
