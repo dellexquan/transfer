@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T03:34:29.896Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="wDzhh8gVnb3DrzXOX2aI" version="18.0.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-18T03:38:36.170Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="AC4JW6M5M4OREi_XVSjr" version="18.0.3" type="github" pages="5">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1746" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -224,7 +224,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cNaONzvC6TOGn3BkPh-x" name="Survey">
-    <mxGraphModel dx="1746" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2573" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -258,11 +258,26 @@
         <mxCell id="zNsudJgpvI5-CDte16of-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="drKVAgCmv68Q_87iL2B4-2" target="zNsudJgpvI5-CDte16of-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YBY6IWB1IHOW2FLOx0pJ-1" value="ProfileMapItem: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="YBY6IWB1IHOW2FLOx0pJ-1" value="SurveyCompany: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="150" width="200" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="YBY6IWB1IHOW2FLOx0pJ-2" value="+ Id: guid&#xa;+ ProfileId: guid&#xa;+ ProfileCode: string&#xa;+ Code: string&#xa;+ Name: string&#xa;+ LocalName: string&#xa;+ Category: ProfileCategory&#xa;+ Type: ProfileType&#xa;+ Ref: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YBY6IWB1IHOW2FLOx0pJ-1">
+        <mxCell id="YBY6IWB1IHOW2FLOx0pJ-2" value="+ Id: guid&#xa;+ CompanyId: guid&#xa;+ Name: string&#xa;+ LocalName: string&#xa;+ CompanyGroupId: guid&#xa;+ GroupName: string&#xa;+ GroupLocalName: string&#xa;+ EnrollStatus: EnrollStatus" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YBY6IWB1IHOW2FLOx0pJ-1">
           <mxGeometry y="26" width="200" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="TVXaV5KSCuighUlXlPAP-1" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="drKVAgCmv68Q_87iL2B4-2" target="YBY6IWB1IHOW2FLOx0pJ-2">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="520" y="223" as="sourcePoint" />
+            <mxPoint x="450" y="223" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TVXaV5KSCuighUlXlPAP-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=#000000;entryX=0.05;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TVXaV5KSCuighUlXlPAP-2" target="YBY6IWB1IHOW2FLOx0pJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVXaV5KSCuighUlXlPAP-2" value="EnrollStatus: Enum" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="198" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TVXaV5KSCuighUlXlPAP-3" value="+ Not Confirm&#xa;+ Confirmed&#xa;+ DataSubmit&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TVXaV5KSCuighUlXlPAP-2">
+          <mxGeometry y="26" width="140" height="64" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
