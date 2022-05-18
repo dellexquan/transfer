@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T05:42:34.816Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="J9_2VXe1ks-wvosUQldU" version="18.0.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-18T05:47:39.262Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="vvgK6EPMjVxo-G7fdHrM" version="18.0.3" type="github" pages="6">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1746" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -490,24 +490,24 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yk58kcLUxgXFc2pCcdvY" name="Data File">
-    <mxGraphModel dx="1746" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2573" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="IkL-cs7m7YMH98_LMBAn-1" value="DataFile: Aggregate Root" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="160" width="240" height="230" as="geometry" />
+          <mxGeometry x="250" y="160" width="240" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="IkL-cs7m7YMH98_LMBAn-2" value="+ Id: guid&#xa;+ FileId: guid?&#xa;+ FileUrl: string&#xa;+ Name: string&#xa;+ Status: DataFileStatus&#xa;+ ProfileMapId: guid?&#xa;+ ReleaseOwner: guid?&#xa;+ NPDCompanyId: guid?&#xa;+ Creator: guid&#xa;+ CreateTime: datetime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IkL-cs7m7YMH98_LMBAn-1">
-          <mxGeometry y="26" width="240" height="154" as="geometry" />
+        <mxCell id="IkL-cs7m7YMH98_LMBAn-2" value="+ Id: guid&#xa;+ FileId: guid?&#xa;+ FileUrl: string&#xa;+ Name: string&#xa;+ Status: DataFileStatus&#xa;+ ProfileMapId: guid?&#xa;+ ReleaseOwner: guid?&#xa;+ NPDCompanyId: guid?&#xa;+ IPDCompanyList: List&lt;DataFileBU&gt;&#xa;+ IncbTotalCount: int?&#xa;+ Creator: guid&#xa;+ CreateTime: datetime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IkL-cs7m7YMH98_LMBAn-1">
+          <mxGeometry y="26" width="240" height="184" as="geometry" />
         </mxCell>
         <mxCell id="IkL-cs7m7YMH98_LMBAn-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="IkL-cs7m7YMH98_LMBAn-1">
-          <mxGeometry y="180" width="240" height="8" as="geometry" />
+          <mxGeometry y="210" width="240" height="8" as="geometry" />
         </mxCell>
         <mxCell id="IkL-cs7m7YMH98_LMBAn-4" value="+ valid(): void&#xa;+ inactive(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IkL-cs7m7YMH98_LMBAn-1">
-          <mxGeometry y="188" width="240" height="42" as="geometry" />
+          <mxGeometry y="218" width="240" height="42" as="geometry" />
         </mxCell>
         <mxCell id="A-iDouk0RoMz01LllfU6-1" value="DataFileStatus: Enum" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="570" y="195" width="140" height="110" as="geometry" />
+          <mxGeometry x="570" y="210" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="A-iDouk0RoMz01LllfU6-2" value="+ Uploading&#xa;+ Invalid&#xa;+ Uploaded&#xa;+ Released&#xa;+ Inactive&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="A-iDouk0RoMz01LllfU6-1">
           <mxGeometry y="26" width="140" height="84" as="geometry" />
@@ -523,6 +523,18 @@
         </mxCell>
         <mxCell id="rjeuhCsWP_9Dr2BeYh1A-2" value="+ Upload(&#xa;        fileUrl: string,&#xa;        name: string&#xa;        ReleaseOwner: User&#xa;    ): DataFile&#xa;+ Release(dataFile: DataFile): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rjeuhCsWP_9Dr2BeYh1A-1">
           <mxGeometry y="26" width="230" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="pZnXWKMWIwu1hcpN8UQz-1" value="DataFileBu: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="225" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pZnXWKMWIwu1hcpN8UQz-2" value="+ Id: guid&#xa;+ CompanyId: guid&#xa;+ incbTotalCount: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pZnXWKMWIwu1hcpN8UQz-1">
+          <mxGeometry y="26" width="200" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="pZnXWKMWIwu1hcpN8UQz-3" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;strokeColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IkL-cs7m7YMH98_LMBAn-2" target="pZnXWKMWIwu1hcpN8UQz-2">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="40" y="520" as="sourcePoint" />
+            <mxPoint x="200" y="520" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
