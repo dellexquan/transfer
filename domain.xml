@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T23:44:08.719Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="T-cWP2Oxg2C4CAwmIn_T" version="18.0.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-05-18T23:45:37.605Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="w4UOlvvCG9UeXeFCjqDE" version="18.0.7" type="github" pages="7">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1746" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -507,10 +507,10 @@
           <mxGeometry y="218" width="260" height="42" as="geometry" />
         </mxCell>
         <mxCell id="A-iDouk0RoMz01LllfU6-1" value="DataFileStatus: Enum" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="570" y="210" width="140" height="110" as="geometry" />
+          <mxGeometry x="570" y="205" width="140" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="A-iDouk0RoMz01LllfU6-2" value="+ Uploading&#xa;+ Invalid&#xa;+ Uploaded&#xa;+ Released&#xa;+ Inactive&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="A-iDouk0RoMz01LllfU6-1" vertex="1">
-          <mxGeometry y="26" width="140" height="84" as="geometry" />
+        <mxCell id="A-iDouk0RoMz01LllfU6-2" value="+ Uploading&#xa;+ Uploaded&#xa;+ Valid&#xa;+ Invalid&#xa;+ Released&#xa;+ Inactive&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="A-iDouk0RoMz01LllfU6-1" vertex="1">
+          <mxGeometry y="26" width="140" height="94" as="geometry" />
         </mxCell>
         <mxCell id="duo_Mn1SlBDG-6E62kfC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=#000000;" parent="1" source="IkL-cs7m7YMH98_LMBAn-2" target="A-iDouk0RoMz01LllfU6-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
