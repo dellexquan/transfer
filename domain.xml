@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T03:44:35.839Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="hUVyHdsg_acL9t_F7y-r" version="18.0.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-18T03:44:50.090Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="DE90kHgMcIF_g8mcX9ZL" version="18.0.3" type="github" pages="5">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1746" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -343,7 +343,7 @@
         <mxCell id="A14Dglha2E7uJ_N4WQ6V-1" value="ProfileMapService: Domain Service" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="417" y="420" width="420" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="A14Dglha2E7uJ_N4WQ6V-2" value="+ Create(&#xa;        code: string,&#xa;        periodCode: string&#xa;        name: string,&#xa;        localName: string,&#xa;        profiles: List&lt;Profile&gt;&#xa;    ): SurveyProfileMap" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="A14Dglha2E7uJ_N4WQ6V-1">
+        <mxCell id="A14Dglha2E7uJ_N4WQ6V-2" value="+ Create(&#xa;        code: string,&#xa;        period: Period&#xa;        name: string,&#xa;        localName: string,&#xa;        profiles: List&lt;Profile&gt;&#xa;    ): SurveyProfileMap" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="A14Dglha2E7uJ_N4WQ6V-1">
           <mxGeometry y="26" width="420" height="114" as="geometry" />
         </mxCell>
         <mxCell id="0mimVcHyeoBg1Udo9mMo-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="Bi9WgmqIRm3JqDll6vI0-12" target="Bi9WgmqIRm3JqDll6vI0-6">
