@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T02:11:25.465Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="Z-lMQ7cmYgjjPqQrM8wC" version="18.0.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-18T02:11:58.934Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="-vuPIlIHQ4UuSQmW4lLz" version="18.0.3" type="github" pages="4">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1746" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -325,18 +325,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dFa4cAtbBtzkOmswCUPw-1" value="SurveyAuditingRuleSet: Aggregate Root" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="90" width="250" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="dFa4cAtbBtzkOmswCUPw-2" value="+ Id: guid&#xa;+ Code: string&#xa;+ LocalName: string&#xa;+ Name: string&#xa;+ Category: ProfileCategory&#xa;+ Items: List&lt;AuditingRule&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dFa4cAtbBtzkOmswCUPw-1">
-          <mxGeometry y="26" width="250" height="94" as="geometry" />
-        </mxCell>
-        <mxCell id="dFa4cAtbBtzkOmswCUPw-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="dFa4cAtbBtzkOmswCUPw-1">
-          <mxGeometry y="120" width="250" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="dFa4cAtbBtzkOmswCUPw-4" value="+ Clone(&#xa;        code: string,&#xa;        name: string,&#xa;        localName: string&#xa;    ): AuditingRuleSet" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dFa4cAtbBtzkOmswCUPw-1">
-          <mxGeometry y="128" width="250" height="82" as="geometry" />
-        </mxCell>
         <mxCell id="zmKsPjV7-QU0C2gbKwuY-1" value="AuditingRuleSet: Aggregate Root" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="460" y="360" width="240" height="210" as="geometry" />
         </mxCell>
@@ -349,7 +337,7 @@
         <mxCell id="zmKsPjV7-QU0C2gbKwuY-4" value="+ Clone(&#xa;        code: string,&#xa;        name: string,&#xa;        localName: string&#xa;    ): AuditingRuleSet" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zmKsPjV7-QU0C2gbKwuY-1">
           <mxGeometry y="128" width="240" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="zmKsPjV7-QU0C2gbKwuY-5" value="SurveyProfile: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="zmKsPjV7-QU0C2gbKwuY-5" value="SurveyAuditingRule: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="177" y="350" width="200" height="140" as="geometry" />
         </mxCell>
         <mxCell id="zmKsPjV7-QU0C2gbKwuY-6" value="+ Id: guid&#xa;+ ProfileId: guid&#xa;+ Code: string&#xa;+ Name: string&#xa;+ LocalName: string&#xa;+ Type: ProfileType&#xa;+ Index: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zmKsPjV7-QU0C2gbKwuY-5">
