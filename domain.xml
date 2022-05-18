@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T04:00:21.794Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="S7mpw1Phcrqhmm6-EBF2" version="18.0.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-18T04:00:46.302Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="CGi4zJH79BCO2t4om_Wl" version="18.0.3" type="github" pages="5">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1746" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -229,7 +229,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="drKVAgCmv68Q_87iL2B4-1" value="Survey: Aggregate Root" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="370" y="110" width="360" height="410" as="geometry" />
+          <mxGeometry x="370" y="110" width="360" height="390" as="geometry" />
         </mxCell>
         <mxCell id="drKVAgCmv68Q_87iL2B4-2" value="+ Id: guid&#xa;+ PeriodCode: string&#xa;+ JobMethodCode: string&#xa;+ IndustryCode: string&#xa;+ AreaCode: string&#xa;+ SurveyProfileMapId: guid&#xa;+ SurveyProfileMapCode: string&#xa;+ IPDAuditingRuleSetId: guid&#xa;+ IPDAuditingRuleSetCode: string&#xa;+ NPDAuditingRuleSetId: guid&#xa;+ NPDAuditingRuleSetCode: string&#xa;+ PositionSetId: guid&#xa;+ PositionSetCode: string&#xa;+ Code: string&#xa;+ LocalName: string&#xa;+ Name: string&#xa;+ Status: SurveyStatus&#xa;+ Category: SurveyCategory&#xa;+ Company: List&lt;SurveyCompany&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="drKVAgCmv68Q_87iL2B4-1">
           <mxGeometry y="26" width="360" height="284" as="geometry" />
@@ -238,7 +238,7 @@
           <mxGeometry y="310" width="360" height="8" as="geometry" />
         </mxCell>
         <mxCell id="drKVAgCmv68Q_87iL2B4-4" value="+ Active(): void&#xa;+ Inactive(): void&#xa;+ SubmitFile(company: Company, file: DataFile): void&#xa;+ ReleaseDV(company: Company, dv: DataVersion): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="drKVAgCmv68Q_87iL2B4-1">
-          <mxGeometry y="318" width="360" height="92" as="geometry" />
+          <mxGeometry y="318" width="360" height="72" as="geometry" />
         </mxCell>
         <mxCell id="Q1zl5EV7BeLk5g2Kit2f-1" value="SurveyStatus: Enum" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="940" y="140" width="140" height="70" as="geometry" />
@@ -285,7 +285,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zIXY8CbbxVlEhIrVvyiM-1" value="SurveyService: Domain Service" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="270" y="570" width="420" height="380" as="geometry" />
+          <mxGeometry x="327" y="550" width="420" height="380" as="geometry" />
         </mxCell>
         <mxCell id="zIXY8CbbxVlEhIrVvyiM-2" value="+ Create(&#xa;        code: string,&#xa;        jobMethod: JobMethod&#xa;        period: Period&#xa;        name: string,&#xa;        localName: string,&#xa;        industryCode: string,&#xa;        areaCode: string,&#xa;        surveyProfileMap: SurveyProfileMap,&#xa;        iPDAuditingRuleSet: AuditingRuleSet,&#xa;        nPDAuditingRuleSet: AuditingRuleSet,&#xa;        positionSet: PositionSet&#xa;        profiles: List&lt;Company&gt;&#xa;    ): Survey&#xa;+ Clone(&#xa;        code: string,&#xa;        localName: string,&#xa;        name: string,&#xa;        period: Period,&#xa;        surveyProfileMap: SurveyProfileMap,&#xa;        iPDAuditingRuleSet: AuditingRuleSet,&#xa;        nPDAuditingRuleSet: AuditingRuleSet,&#xa;        positionSet: PositionSet&#xa;    ): Survey" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zIXY8CbbxVlEhIrVvyiM-1">
           <mxGeometry y="26" width="420" height="354" as="geometry" />
