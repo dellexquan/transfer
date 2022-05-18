@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T00:30:00.820Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="1bHKrerlghC0c_a8rz9m" version="18.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-18T00:31:59.826Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="9c4dw6rLXgbpIPLku_0B" version="18.0.3" type="github" pages="2">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1746" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -278,7 +278,7 @@
         <mxCell id="drKVAgCmv68Q_87iL2B4-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="drKVAgCmv68Q_87iL2B4-1">
           <mxGeometry y="150" width="196" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="drKVAgCmv68Q_87iL2B4-4" value="+ Active(): void&#xa;+ Inactive(): void&#xa;+ IsAreaSurvey(): boolean&#xa;+ IsIndustrySurvey(): boolean&#xa;+ Duplicate(periodId: guid): guid" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="drKVAgCmv68Q_87iL2B4-1">
+        <mxCell id="drKVAgCmv68Q_87iL2B4-4" value="+ Active(): void&#xa;+ Inactive(): void&#xa;+ IsAreaSurvey(): boolean&#xa;+ IsIndustrySurvey(): boolean&#xa;+ Clone(periodId: guid): guid" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="drKVAgCmv68Q_87iL2B4-1">
           <mxGeometry y="158" width="196" height="92" as="geometry" />
         </mxCell>
         <mxCell id="Q1zl5EV7BeLk5g2Kit2f-1" value="SurveyStatus" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
