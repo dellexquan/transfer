@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T02:15:40.924Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="wbJ-QVds3ShL2K72pKQt" version="18.0.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-18T02:19:24.069Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="vk6lshp0lY3BfidrH2QT" version="18.0.3" type="github" pages="4">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1746" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -340,7 +340,7 @@
         <mxCell id="zmKsPjV7-QU0C2gbKwuY-5" value="AuditingRuleSetItem: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="177" y="350" width="200" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="zmKsPjV7-QU0C2gbKwuY-6" value="+ Id: guid&#xa;+ AuditingRuleCode: string&#xa;+ Code: string&#xa;+ Name: string&#xa;+ LocalName: string&#xa;+ Type: ProfileType&#xa;+ Index: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zmKsPjV7-QU0C2gbKwuY-5">
+        <mxCell id="zmKsPjV7-QU0C2gbKwuY-6" value="+ Id: guid&#xa;+ AuditingRuleCode: string&#xa;+ Code: string&#xa;+ Name: string&#xa;+ LocalName: string&#xa;+ Severity: SeverityType&#xa;+ Rule: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zmKsPjV7-QU0C2gbKwuY-5">
           <mxGeometry y="26" width="200" height="114" as="geometry" />
         </mxCell>
         <mxCell id="zmKsPjV7-QU0C2gbKwuY-7" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zmKsPjV7-QU0C2gbKwuY-2" target="zmKsPjV7-QU0C2gbKwuY-6">
@@ -358,11 +358,11 @@
         <mxCell id="zmKsPjV7-QU0C2gbKwuY-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="zmKsPjV7-QU0C2gbKwuY-2" target="zmKsPjV7-QU0C2gbKwuY-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zmKsPjV7-QU0C2gbKwuY-11" value="ProfileType: Enum" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="378" width="140" height="110" as="geometry" />
+        <mxCell id="zmKsPjV7-QU0C2gbKwuY-11" value="SeverityType: Enum" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="398" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="zmKsPjV7-QU0C2gbKwuY-12" value="+ Numeric&#xa;+ Percentage&#xa;+ Option&#xa;+ String&#xa;+ Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zmKsPjV7-QU0C2gbKwuY-11">
-          <mxGeometry y="26" width="140" height="84" as="geometry" />
+        <mxCell id="zmKsPjV7-QU0C2gbKwuY-12" value="+ Warning&#xa;+ Error" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zmKsPjV7-QU0C2gbKwuY-11">
+          <mxGeometry y="26" width="190" height="44" as="geometry" />
         </mxCell>
         <mxCell id="zmKsPjV7-QU0C2gbKwuY-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="zmKsPjV7-QU0C2gbKwuY-6" target="zmKsPjV7-QU0C2gbKwuY-11">
           <mxGeometry relative="1" as="geometry" />
