@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T03:15:47.314Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="bKlwnx9FOl6LB2KdQHAL" version="17.4.6" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-06-09T05:40:23.954Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="YgHxgI5Ndyw9PXmWbuyw" version="17.4.6" type="github" pages="10">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1278" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -604,7 +604,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NDwb4Hx6Ea2JAHnxuMgh" name="Data Version">
-    <mxGraphModel dx="2573" dy="2033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2105" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -765,7 +765,7 @@
         <mxCell id="BrrvjfJdobw2kPKD-Smq-1" value="Report: Aggregate Root" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="224" y="160" width="380" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="BrrvjfJdobw2kPKD-Smq-2" value="+ Id: guid&#xa;+ MethodCode: string&#xa;+ PeriodCode: string&#xa;+ AreaCode: string&#xa;+ IndustryCode: string&#xa;+ Version: string&#xa;+ MeasurementSetId: guid&#xa;+ DimensionSetId: guid&#xa;+ PositionSetId: guid&#xa;+ Code: string&#xa;+ LocalName: string&#xa;+ Name: string&#xa;+ Type: ReportType&#xa;+ Status: ReportStatus&#xa;+ Profiles:List&lt;ReportProfile&gt;&#xa;+ Company: List&lt;ReportCompany&gt;&#xa;+ CompanyIPDDataVersions: List&lt;ReportCompanyDataVersion&gt;&#xa;+ CompanyNPDDataVersions: List&lt;ReportCompanyDataVersion&gt;&#xa;+ CompanyIPDData: List&lt;ReportData&gt;&#xa;+ CompanyNPDData: List&lt;ReportData&gt;&#xa;+ Positions: List&lt;ReportPosition&gt;&#xa;+ Members: List&lt;ReportOwner&gt;&#xa;+ Tags: List&lt;ReportTag&gt;&#xa;+ Logs: List&lt;ReportLog&gt;&#xa;+ ReportPolicy: jsonb&#xa;+ AutoRunPolicy: jsonb&#xa;+ ReferReportId: guid?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="BrrvjfJdobw2kPKD-Smq-1" vertex="1">
+        <mxCell id="BrrvjfJdobw2kPKD-Smq-2" value="+ Id: guid&#xa;+ MethodCode: string&#xa;+ PeriodCode: string&#xa;+ AreaCode: string&#xa;+ IndustryCode: string&#xa;+ Version: string&#xa;+ MeasurementSetId: guid&#xa;+ DimensionSetId: guid&#xa;+ PositionSetId: guid&#xa;+ Code: string&#xa;+ LocalName: string&#xa;+ Name: string&#xa;+ Type: ReportType&#xa;+ Status: ReportStatus&#xa;+ Dimensions:List&lt;ReportProfile&gt;&#xa;+ Measurements: List&lt;ReportProfile&gt;&#xa;+ Company: List&lt;ReportCompany&gt;&#xa;+ CompanyIPDDataVersions: List&lt;ReportCompanyDataVersion&gt;&#xa;+ CompanyNPDDataVersions: List&lt;ReportCompanyDataVersion&gt;&#xa;+ CompanyIPDData: List&lt;ReportData&gt;&#xa;+ CompanyNPDData: List&lt;ReportData&gt;&#xa;+ Positions: List&lt;ReportPosition&gt;&#xa;+ Members: List&lt;ReportOwner&gt;&#xa;+ Tags: List&lt;ReportTag&gt;&#xa;+ Logs: List&lt;ReportLog&gt;&#xa;+ ReportPolicy: jsonb&#xa;+ AutoRunPolicy: jsonb&#xa;+ ReferReportId: guid?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="BrrvjfJdobw2kPKD-Smq-1" vertex="1">
           <mxGeometry y="26" width="380" height="424" as="geometry" />
         </mxCell>
         <mxCell id="BrrvjfJdobw2kPKD-Smq-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="BrrvjfJdobw2kPKD-Smq-1" vertex="1">
