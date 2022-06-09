@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T03:02:17.721Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="kxgeJL2VN6WTQ5qDPKrY" version="17.4.6" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-06-09T03:03:18.835Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="I9cbCcnfj72xbO0Mb9_2" version="17.4.6" type="github" pages="10">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1278" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -840,7 +840,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="ON_0MwB7-lKEPDIA7HMC" name="Dimension Set">
+  <diagram id="ON_0MwB7-lKEPDIA7HMC" name="Report Profile Map">
     <mxGraphModel dx="2128" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -860,7 +860,7 @@
         <mxCell id="sijtxHXdZrZh09p1XqxG-5" value="ReportProfile: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="250" y="120" width="200" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="sijtxHXdZrZh09p1XqxG-6" value="+ Id: guid&#xa;+ ProfileId: guid&#xa;+ ProfileCode: string&#xa;+ Code: string&#xa;+ Name: string&#xa;+ LocalName: string&#xa;+ Category: ReportProfileCategory&#xa;+ Type: ProfileType&#xa;+ Index: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sijtxHXdZrZh09p1XqxG-5">
+        <mxCell id="sijtxHXdZrZh09p1XqxG-6" value="+ Id: guid&#xa;+ ProfileId: guid&#xa;+ ProfileCode: string&#xa;+ Code: string&#xa;+ Name: string&#xa;+ LocalName: string&#xa;+ Category: ReportProfileCategory&#xa;+ Type: ReportProfileType&#xa;+ Index: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sijtxHXdZrZh09p1XqxG-5">
           <mxGeometry y="26" width="200" height="154" as="geometry" />
         </mxCell>
         <mxCell id="sijtxHXdZrZh09p1XqxG-7" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sijtxHXdZrZh09p1XqxG-2" target="sijtxHXdZrZh09p1XqxG-6">
@@ -878,11 +878,11 @@
         <mxCell id="sijtxHXdZrZh09p1XqxG-10" value="+ Dimension&#xa;+ Measurement&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sijtxHXdZrZh09p1XqxG-9">
           <mxGeometry y="26" width="190" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="sijtxHXdZrZh09p1XqxG-11" value="ProfileType: Enum" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="50" width="140" height="120" as="geometry" />
+        <mxCell id="sijtxHXdZrZh09p1XqxG-11" value="ReportProfileType: Enum" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="60" width="220" height="120" as="geometry" />
         </mxCell>
         <mxCell id="sijtxHXdZrZh09p1XqxG-12" value="+ Numeric&#xa;+ Percentage&#xa;+ Option&#xa;+ Text&#xa;+ Boolean&#xa;+ Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sijtxHXdZrZh09p1XqxG-11">
-          <mxGeometry y="26" width="140" height="94" as="geometry" />
+          <mxGeometry y="26" width="220" height="94" as="geometry" />
         </mxCell>
         <mxCell id="sijtxHXdZrZh09p1XqxG-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="sijtxHXdZrZh09p1XqxG-12" target="sijtxHXdZrZh09p1XqxG-6">
           <mxGeometry relative="1" as="geometry" />
