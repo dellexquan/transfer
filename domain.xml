@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T03:03:18.835Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="I9cbCcnfj72xbO0Mb9_2" version="17.4.6" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-06-09T03:12:23.500Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="jnk_QsJoaYfef8TgmQ9i" version="17.4.6" type="github" pages="10">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1278" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -224,7 +224,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cNaONzvC6TOGn3BkPh-x" name="Survey">
-    <mxGraphModel dx="2573" dy="2033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2105" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -344,10 +344,10 @@
         <mxCell id="ncyQXkS2F6j_sZdLVjUN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="YBY6IWB1IHOW2FLOx0pJ-2" target="ncyQXkS2F6j_sZdLVjUN-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P6SCndu8It1M6_HUmpoT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="YBY6IWB1IHOW2FLOx0pJ-2" target="TVXaV5KSCuighUlXlPAP-3">
+        <mxCell id="P6SCndu8It1M6_HUmpoT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="YBY6IWB1IHOW2FLOx0pJ-2" target="TVXaV5KSCuighUlXlPAP-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P6SCndu8It1M6_HUmpoT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="YBY6IWB1IHOW2FLOx0pJ-2" target="HZwB9v-0qFSD3OqrlmDR-2">
+        <mxCell id="P6SCndu8It1M6_HUmpoT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="YBY6IWB1IHOW2FLOx0pJ-2" target="HZwB9v-0qFSD3OqrlmDR-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8hM8K_QLm8A4XIytm-na-1" value="Untitled Layer" parent="0" />
@@ -436,7 +436,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ho8suCrAu7t21qBo31YV" name="Auditing Rule Set">
-    <mxGraphModel dx="2573" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2105" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -835,6 +835,18 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="614" y="338" as="sourcePoint" />
             <mxPoint x="690" y="173" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iz6oJqeJmAKwwavWaGT1-1" value="ReportCompany: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="450" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Iz6oJqeJmAKwwavWaGT1-2" value="+ Id: guid&#xa;+ CompanyId: guid?&#xa;+ Name: string&#xa;+ LocalName: string&#xa;+ GroupName: string&#xa;+ GroupLocalName: string&#xa;+ SubCompany: List&lt;ReportCompany&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Iz6oJqeJmAKwwavWaGT1-1">
+          <mxGeometry y="26" width="320" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="Iz6oJqeJmAKwwavWaGT1-3" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BrrvjfJdobw2kPKD-Smq-2" target="Iz6oJqeJmAKwwavWaGT1-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="614" y="408" as="sourcePoint" />
+            <mxPoint x="690" y="408" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
