@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T08:27:25.630Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="x7V_En1g1KcUkJmeSUO4" version="20.0.1" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-06-16T08:29:44.182Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="vsHUBpyNfFjbzk1-TjK9" version="20.0.1" type="github" pages="12">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -758,7 +758,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ps6_UB9BccHIcHcRGmhL" name="New Report">
-    <mxGraphModel dx="2512" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2272" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -839,7 +839,7 @@
         <mxCell id="fZWSE2jPmXEqYJhrHGa_-4" value="ReportDataSource: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="240" y="620" width="320" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="fZWSE2jPmXEqYJhrHGa_-5" value="+ Id: guid&#xa;+ ReportProfileMapId: guid?&#xa;+ Code: string&#xa;+ Name: string&#xa;+ LocalName: string&#xa;+ Type: ReportDataSourceType&#xa;+ Profiles: List&lt;DataSourceProfile&gt;&#xa;+ CompanyDataVersions: List&lt;DataSourceDataVersion&gt;&#xa;+ Columns: List&lt;ReportDataColumn&gt;&#xa;+ Rows: List&lt;ReportDataRow&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="fZWSE2jPmXEqYJhrHGa_-4" vertex="1">
+        <mxCell id="fZWSE2jPmXEqYJhrHGa_-5" value="+ Id: guid&#xa;+ ReportProfileMapId: guid?&#xa;+ Code: string&#xa;+ Name: string&#xa;+ LocalName: string&#xa;+ Type: ReportDataSourceType&#xa;+ CompanyDataVersions: List&lt;DataSourceDataVersion&gt;&#xa;+ Columns: List&lt;ReportDataColumn&gt;&#xa;+ Rows: List&lt;ReportDataRow&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="fZWSE2jPmXEqYJhrHGa_-4" vertex="1">
           <mxGeometry y="26" width="320" height="184" as="geometry" />
         </mxCell>
         <mxCell id="fZWSE2jPmXEqYJhrHGa_-6" value="" style="group" parent="1" vertex="1" connectable="0">
@@ -860,10 +860,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i_ASFZ_8pV39LTC2rl1i-1" value="ReportDataColumn: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-10" y="910" width="200" height="150" as="geometry" />
+          <mxGeometry x="-10" y="910" width="200" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="i_ASFZ_8pV39LTC2rl1i-2" value="+ Id: guid&#xa;+ DataSourceProfileId: guid&#xa;+ Code: string&#xa;+ Name: string&#xa;+ LocalName: string&#xa;+ Alias: string&#xa;+ Type: ReportDataColumnType&#xa;+ Index: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="i_ASFZ_8pV39LTC2rl1i-1" vertex="1">
-          <mxGeometry y="26" width="200" height="124" as="geometry" />
+        <mxCell id="i_ASFZ_8pV39LTC2rl1i-2" value="+ Id: guid&#xa;+ ReportProfileId: guid?&#xa;+ Code: string&#xa;+ Name: string&#xa;+ LocalName: string&#xa;+ Alias: string&#xa;+ Type: ReportDataColumnType&#xa;+ Index: string&#xa;+ Formula: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="i_ASFZ_8pV39LTC2rl1i-1" vertex="1">
+          <mxGeometry y="26" width="200" height="154" as="geometry" />
         </mxCell>
         <mxCell id="zw-49FwXIac2EyEMA4B7-1" value="ReportDataRow: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="840" y="910" width="220" height="300" as="geometry" />
@@ -929,7 +929,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZVNmOXOXNABlUGsg9PpZ-1" value="ReportDataColumnType: Enum" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-300" y="950" width="270" height="120" as="geometry" />
+          <mxGeometry x="-360" y="860" width="270" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ZVNmOXOXNABlUGsg9PpZ-2" value="+ Numeric&#xa;+ Percentage&#xa;+ List&#xa;+ Text&#xa;+ Boolean&#xa;+ Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZVNmOXOXNABlUGsg9PpZ-1" vertex="1">
           <mxGeometry y="26" width="270" height="94" as="geometry" />
@@ -1000,35 +1000,14 @@
         <mxCell id="MPApBxOMiQjwbn5Imjw4-3" value="DataVersionStatus: Enum" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="MPApBxOMiQjwbn5Imjw4-1" vertex="1">
           <mxGeometry width="250" height="80.00000000000001" as="geometry" />
         </mxCell>
-        <mxCell id="tw_vz-n9-vZKd9pRBhcX-3" value="DataSourceProfile: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="635" width="200" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="tw_vz-n9-vZKd9pRBhcX-4" value="+ Id: guid&#xa;+ ReportProfileId: guid?&#xa;+ ProfileCode: string&#xa;+ Code: string&#xa;+ Name: string&#xa;+ LocalName: string&#xa;+ Category: ReportProfileCategory&#xa;+ Type: ReportProfileType&#xa;+ Index: string&#xa;+ Formula: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tw_vz-n9-vZKd9pRBhcX-3">
-          <mxGeometry y="26" width="200" height="154" as="geometry" />
-        </mxCell>
-        <mxCell id="tw_vz-n9-vZKd9pRBhcX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="tw_vz-n9-vZKd9pRBhcX-7" target="tw_vz-n9-vZKd9pRBhcX-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="tw_vz-n9-vZKd9pRBhcX-7" value="DataSourceProfileCategory: Enum" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-490" y="780" width="300" height="70" as="geometry" />
+        <mxCell id="tw_vz-n9-vZKd9pRBhcX-7" value="ReportDataColumnCategory: Enum" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="1040" width="300" height="70" as="geometry" />
         </mxCell>
         <mxCell id="tw_vz-n9-vZKd9pRBhcX-8" value="+ Dim&#xa;+ Factor&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tw_vz-n9-vZKd9pRBhcX-7">
           <mxGeometry y="26" width="300" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="tw_vz-n9-vZKd9pRBhcX-9" value="DataSourceProfileType: Enum" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-490" y="590" width="300" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="tw_vz-n9-vZKd9pRBhcX-10" value="+ Numeric&#xa;+ Percentage&#xa;+ Option&#xa;+ Text&#xa;+ Boolean&#xa;+ Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tw_vz-n9-vZKd9pRBhcX-9">
-          <mxGeometry y="26" width="300" height="94" as="geometry" />
-        </mxCell>
-        <mxCell id="tw_vz-n9-vZKd9pRBhcX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="tw_vz-n9-vZKd9pRBhcX-10" target="tw_vz-n9-vZKd9pRBhcX-4">
+        <mxCell id="tw_vz-n9-vZKd9pRBhcX-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="i_ASFZ_8pV39LTC2rl1i-2" target="tw_vz-n9-vZKd9pRBhcX-8">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="tw_vz-n9-vZKd9pRBhcX-12" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fZWSE2jPmXEqYJhrHGa_-5" target="tw_vz-n9-vZKd9pRBhcX-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="402" y="840" as="sourcePoint" />
-            <mxPoint x="94" y="920" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
