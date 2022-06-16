@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T03:54:45.151Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="F-a4-SoTTCvBWKmzk8FF" version="19.0.3" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-06-16T03:55:03.352Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="HXuSJJ-1goq3ghAol1h9" version="19.0.3" type="github" pages="12">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -859,7 +859,7 @@
         <mxCell id="i_ASFZ_8pV39LTC2rl1i-1" value="ReportDataColumn: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-60" y="880" width="200" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="i_ASFZ_8pV39LTC2rl1i-2" value="+ Id: guid&#xa;+ ProfileId: guid&#xa;+ Code: string&#xa;+ Name: string&#xa;+ LocalName: string&#xa;+ Alias: string&#xa;+ Type: ReportDataColumnType&#xa;+ Index: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="i_ASFZ_8pV39LTC2rl1i-1">
+        <mxCell id="i_ASFZ_8pV39LTC2rl1i-2" value="+ Id: guid&#xa;+ DataSourceProfileId: guid&#xa;+ Code: string&#xa;+ Name: string&#xa;+ LocalName: string&#xa;+ Alias: string&#xa;+ Type: ReportDataColumnType&#xa;+ Index: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="i_ASFZ_8pV39LTC2rl1i-1">
           <mxGeometry y="26" width="200" height="124" as="geometry" />
         </mxCell>
       </root>
