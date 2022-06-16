@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T05:44:24.719Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="UNKtZYHT7ek44KAtkQkC" version="19.0.3" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-06-16T05:45:47.693Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="-hBVNYQQaQEkmzX4B6aV" version="19.0.3" type="github" pages="12">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -865,7 +865,7 @@
         <mxCell id="zw-49FwXIac2EyEMA4B7-1" value="ReportDataRow: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="450" y="910" width="200" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="zw-49FwXIac2EyEMA4B7-2" value="+ Id: guid&#xa;+ IncbId: string&#xa;+ CompanyId: guid&#xa;+ OriginReportPositionId: guid&#xa;+ OriginPositionCode: string&#xa;+ OriginJobValue: string&#xa;+ OriginPositionCategoryCode: string&#xa;+ OriginDim1&#xa;+ ReportPositionId: guid&#xa;+ PositionCode: string&#xa;+ JobValue: string&#xa;+ Exclude: boolean&#xa;+ PositionCategoryCode: string&#xa;+ Dim1&#xa;+ Value: jsonb" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zw-49FwXIac2EyEMA4B7-1">
+        <mxCell id="zw-49FwXIac2EyEMA4B7-2" value="+ Id: guid&#xa;+ IncbId: string&#xa;+ CompanyId: guid&#xa;+ OriginReportPositionId: guid&#xa;+ OriginPositionCode: string&#xa;+ OriginJobValue: string&#xa;+ OriginPositionCategoryCode: string&#xa;+ OriginDims: jsonb&#xa;+ ReportPositionId: guid&#xa;+ PositionCode: string&#xa;+ JobValue: string&#xa;+ Exclude: boolean&#xa;+ PositionCategoryCode: string&#xa;+ Dims: jsonb&#xa;+ Value: jsonb" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zw-49FwXIac2EyEMA4B7-1">
           <mxGeometry y="26" width="200" height="224" as="geometry" />
         </mxCell>
         <mxCell id="zw-49FwXIac2EyEMA4B7-3" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.526;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rxTxxVZp5IN2popYeZqG-4" target="fZWSE2jPmXEqYJhrHGa_-4">
@@ -916,7 +916,7 @@
         <mxCell id="OmR-Y-TpJH6D2I_1PWHf-1" value="DataSourceResult: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="730" y="920" width="240" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="OmR-Y-TpJH6D2I_1PWHf-2" value="+ Id: guid&#xa;+ Dims: jsonb&#xa;+ CompanyNumber:int&#xa;+ NonBlankCompanyNumber: int&#xa;+ IncbNumber: int&#xa;+ Factors: jsonb" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OmR-Y-TpJH6D2I_1PWHf-1">
+        <mxCell id="OmR-Y-TpJH6D2I_1PWHf-2" value="+ Id: guid&#xa;+ ReportPositionId: guid&#xa;+ JobCode: string&#xa;+ JobValue: string&#xa;+ JobCategoryCode: string&#xa;+ Dims: jsonb&#xa;+ CompanyNumber:int&#xa;+ NonBlankCompanyNumber: int&#xa;+ IncbNumber: int&#xa;+ Factors: jsonb" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OmR-Y-TpJH6D2I_1PWHf-1">
           <mxGeometry y="26" width="240" height="164" as="geometry" />
         </mxCell>
         <mxCell id="yE-VDguPcjm7TvfyDcJ_-2" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fZWSE2jPmXEqYJhrHGa_-5" target="OmR-Y-TpJH6D2I_1PWHf-1">
