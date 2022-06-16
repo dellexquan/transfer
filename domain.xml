@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T05:28:41.559Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="BnIc1QDCqp8vEYhCyyDA" version="19.0.3" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-06-16T05:31:38.154Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="MrktA2WIfMb0PbwWyAFj" version="19.0.3" type="github" pages="12">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -554,7 +554,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yk58kcLUxgXFc2pCcdvY" name="Data File">
-    <mxGraphModel dx="2573" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2489" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -765,7 +765,7 @@
         <mxCell id="rxTxxVZp5IN2popYeZqG-1" value="Report: Aggregate Root" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="140" width="380" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="rxTxxVZp5IN2popYeZqG-2" value="+ Id: guid&#xa;+ MethodCode: string&#xa;+ PeriodCode: string&#xa;+ AreaCode: string&#xa;+ IndustryCode: string&#xa;+ Version: string&#xa;+ Code: string&#xa;+ LocalName: string&#xa;+ Name: string&#xa;+ Type: ReportType&#xa;+ Status: ReportStatus&#xa;+ Members: List&lt;ReportOwner&gt;&#xa;+ Tags: List&lt;ReportTag&gt;&#xa;+ Logs: List&lt;ReportLog&gt;&#xa;+ IPDResults: List&lt;ReportResult&gt;&#xa;+ ReportPolicy: jsonb&#xa;+ AutoRunPolicy: jsonb&#xa;+ ReferReportId: guid?&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rxTxxVZp5IN2popYeZqG-1">
+        <mxCell id="rxTxxVZp5IN2popYeZqG-2" value="+ Id: guid&#xa;+ MethodCode: string&#xa;+ PeriodCode: string&#xa;+ AreaCode: string&#xa;+ IndustryCode: string&#xa;+ Version: string&#xa;+ Code: string&#xa;+ LocalName: string&#xa;+ Name: string&#xa;+ Type: ReportType&#xa;+ Status: ReportStatus&#xa;+ Members: List&lt;ReportOwner&gt;&#xa;+ Tags: List&lt;ReportTag&gt;&#xa;+ Logs: List&lt;ReportLog&gt;&#xa;+ IPDResults: List&lt;ReportResult&gt;&#xa;+ Config: jsonb&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rxTxxVZp5IN2popYeZqG-1">
           <mxGeometry y="26" width="380" height="274" as="geometry" />
         </mxCell>
         <mxCell id="rxTxxVZp5IN2popYeZqG-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="rxTxxVZp5IN2popYeZqG-1">
@@ -885,6 +885,9 @@
             <mxPoint x="402" y="840" as="sourcePoint" />
             <mxPoint x="174" y="920" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Bs5DXZQ4Ku5H3jPOgvpp-1" value="1. Config: a..ReportPolicy包括汇报哪些分位，出数原则, 是否按Category Position汇报 b.&amp;nbsp;AutoRunPolicy: 包括自动Run报告的参数&lt;br&gt;&lt;br&gt;2. ReportLog包括一切和报告相关的操作日志，比如砍报告的日志，Run报告的日志&lt;br&gt;&lt;br&gt;3. ReportPosition包含标准职位以及Blend职位" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="790" width="250" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
