@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T08:05:00.799Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="_-BWa0JDDbikXB_KeNku" version="20.0.1" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-06-16T08:06:41.047Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="YFRSkV5-hoxUHX4-Kq_P" version="20.0.1" type="github" pages="12">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -758,7 +758,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ps6_UB9BccHIcHcRGmhL" name="New Report">
-    <mxGraphModel dx="2272" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2512" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -866,7 +866,7 @@
           <mxGeometry y="26" width="200" height="124" as="geometry" />
         </mxCell>
         <mxCell id="zw-49FwXIac2EyEMA4B7-1" value="ReportDataRow: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="450" y="910" width="220" height="300" as="geometry" />
+          <mxGeometry x="540" y="910" width="220" height="300" as="geometry" />
         </mxCell>
         <mxCell id="zw-49FwXIac2EyEMA4B7-2" value="+ Id: guid&#xa;+ Key: string&#xa;+ IncbId: string&#xa;+ CompanyId: guid?&#xa;+ OriginReportPositionId: guid?&#xa;+ OriginPositionCode: string&#xa;+ OriginJobValue: string&#xa;+ OriginPositionCategoryCode: string&#xa;+ OriginDims: jsonb&#xa;+ ReportPositionId: guid&#xa;+ PositionCode: string&#xa;+ JobValue: string&#xa;+ Exclude: boolean&#xa;+ PositionCategoryCode: string&#xa;+ Dims: jsonb&#xa;+ OriginValues: jsonb&#xa;+ Values: jsonb" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zw-49FwXIac2EyEMA4B7-1" vertex="1">
           <mxGeometry y="26" width="220" height="274" as="geometry" />
@@ -956,6 +956,18 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="570" y="748" as="sourcePoint" />
             <mxPoint x="700" y="733" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DC5Rmu6bLhFfpO1t0Dni-8" value="DataSourceLog: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="910" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DC5Rmu6bLhFfpO1t0Dni-9" value="+ Id: guid&#xa;+ LogDesc: jsonb" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DC5Rmu6bLhFfpO1t0Dni-8">
+          <mxGeometry y="26" width="180" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="DC5Rmu6bLhFfpO1t0Dni-10" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.481;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fZWSE2jPmXEqYJhrHGa_-5" target="DC5Rmu6bLhFfpO1t0Dni-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="402.96000000000004" y="840" as="sourcePoint" />
+            <mxPoint x="660" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
