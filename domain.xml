@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-17T02:20:35.184Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="G5oHubtOKlYl8A6tHKUt" version="20.0.1" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-06-17T02:20:54.579Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="hCqumKAjJ9taBS9vToMX" version="20.0.1" type="github" pages="12">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -325,13 +325,13 @@
         <mxCell id="qB8sdOoo1k2XUvbWKR1n-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="qB8sdOoo1k2XUvbWKR1n-29" target="qB8sdOoo1k2XUvbWKR1n-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qB8sdOoo1k2XUvbWKR1n-29" value="ReportDataColumn: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+        <mxCell id="qB8sdOoo1k2XUvbWKR1n-29" value="DataColumn: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="-10" y="910" width="200" height="210" as="geometry" />
         </mxCell>
         <mxCell id="qB8sdOoo1k2XUvbWKR1n-30" value="+ Id: guid&#xa;+ ReportProfileId: guid?&#xa;+ Code: string&#xa;+ Name: string&#xa;+ LocalName: string&#xa;+ GroupName: string&#xa;+ SectionName: string&#xa;+ Dims: jsonb&#xa;+ Type: ReportDataColumnType&#xa;+ ListId: guid?&#xa;+ Index: string&#xa;+ Formula: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="qB8sdOoo1k2XUvbWKR1n-29" vertex="1">
           <mxGeometry y="26" width="200" height="184" as="geometry" />
         </mxCell>
-        <mxCell id="qB8sdOoo1k2XUvbWKR1n-31" value="ReportDataRow: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+        <mxCell id="qB8sdOoo1k2XUvbWKR1n-31" value="DataRow: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="240" y="910" width="220" height="110" as="geometry" />
         </mxCell>
         <mxCell id="qB8sdOoo1k2XUvbWKR1n-32" value="+ Id: guid&#xa;+ Key: string&#xa;+ DataVersionId: guid?&#xa;+ Value: jsonb&#xa;+ OriginValue: jsonb" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="qB8sdOoo1k2XUvbWKR1n-31" vertex="1">
