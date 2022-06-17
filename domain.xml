@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-17T02:10:22.493Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="F1OK6qMs8nfFCSqENkat" version="20.0.1" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-06-17T02:16:11.580Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="fxNklIP9rsfrxTtj-o-j" version="20.0.1" type="github" pages="12">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -494,11 +494,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ON_0MwB7-lKEPDIA7HMC" name="Report Profile Map">
-    <mxGraphModel dx="2596" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2128" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sijtxHXdZrZh09p1XqxG-1" value="ReportProfileMap: Aggregate Root" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+        <mxCell id="sijtxHXdZrZh09p1XqxG-1" value="DataSourceProfileMap: Aggregate Root" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="520" y="150" width="240" height="230" as="geometry" />
         </mxCell>
         <mxCell id="sijtxHXdZrZh09p1XqxG-2" value="+ Id: guid&#xa;+ PeriodCode: string&#xa;+ Code: string&#xa;+ LocalName: string&#xa;+ Name: string&#xa;+ Items: List&lt;ReportProfile&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sijtxHXdZrZh09p1XqxG-1" vertex="1">
@@ -510,7 +510,7 @@
         <mxCell id="sijtxHXdZrZh09p1XqxG-4" value="+ Clone(&#xa;        code: string,&#xa;        name: string,&#xa;        periodCode: string,&#xa;        localName: string&#xa;    ): ReportProfileMap" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sijtxHXdZrZh09p1XqxG-1" vertex="1">
           <mxGeometry y="128" width="240" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="sijtxHXdZrZh09p1XqxG-5" value="ReportProfile: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+        <mxCell id="sijtxHXdZrZh09p1XqxG-5" value="DatasourceProfile: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="250" y="120" width="200" height="240" as="geometry" />
         </mxCell>
         <mxCell id="sijtxHXdZrZh09p1XqxG-6" value="+ Id: guid&#xa;+ StandardProfileId: guid&#xa;+ ProfileCode: string&#xa;+ Code: string&#xa;+ Name: string&#xa;+ GroupName: string&#xa;+ SectionName: string&#xa;+ Dims: jsonb&#xa;+ LocalName: string&#xa;+ Type: ReportProfileType&#xa;+ ListId: guid?&#xa;+ Formula: string&#xa;+ Index: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sijtxHXdZrZh09p1XqxG-5" vertex="1">
