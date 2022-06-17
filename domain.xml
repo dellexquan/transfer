@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-17T02:16:56.792Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="CefRxmNAis4cguyTEBn1" version="20.0.1" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-06-17T02:18:03.617Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="kD1lYCp7JBgQZ3KPVwrp" version="20.0.1" type="github" pages="12">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -305,7 +305,7 @@
         <mxCell id="qB8sdOoo1k2XUvbWKR1n-22" value="ReportDataSource: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="240" y="555" width="320" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="qB8sdOoo1k2XUvbWKR1n-23" value="+ Id: guid&#xa;+ DataSourceProfileMapId: guid?&#xa;+ Code: string&#xa;+ Name: string&#xa;+ LocalName: string&#xa;+ Type: ReportDataSourceType&#xa;+ DataSourceConfig: jsonb&#xa;+ DataVersions: List&lt;DataSourceDataVersion&gt;&#xa;+ Columns: List&lt;ReportDataColumn&gt;&#xa;+ Rows: List&lt;ReportDataRow&gt;&#xa;+ Groups: List&lt;ReportDataGroup&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="qB8sdOoo1k2XUvbWKR1n-22" vertex="1">
+        <mxCell id="qB8sdOoo1k2XUvbWKR1n-23" value="+ Id: guid&#xa;+ DataSourceProfileMapId: guid?&#xa;+ Code: string&#xa;+ Name: string&#xa;+ LocalName: string&#xa;+ Type: DataSourceType&#xa;+ DataSourceConfig: jsonb&#xa;+ DataVersions: List&lt;DataSourceDataVersion&gt;&#xa;+ Columns: List&lt;ReportDataColumn&gt;&#xa;+ Rows: List&lt;ReportDataRow&gt;&#xa;+ Groups: List&lt;ReportDataGroup&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="qB8sdOoo1k2XUvbWKR1n-22" vertex="1">
           <mxGeometry y="26" width="320" height="184" as="geometry" />
         </mxCell>
         <mxCell id="qB8sdOoo1k2XUvbWKR1n-24" value="" style="group" parent="1" vertex="1" connectable="0">
@@ -314,7 +314,7 @@
         <mxCell id="qB8sdOoo1k2XUvbWKR1n-25" value="+ IPD&#xa;+ NPD&#xa;+ Macro&#xa;+ Others" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="qB8sdOoo1k2XUvbWKR1n-24" vertex="1">
           <mxGeometry y="30" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qB8sdOoo1k2XUvbWKR1n-26" value="ReportDataSourceType: Enum" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="qB8sdOoo1k2XUvbWKR1n-24" vertex="1">
+        <mxCell id="qB8sdOoo1k2XUvbWKR1n-26" value="DataSourceType: Enum" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="qB8sdOoo1k2XUvbWKR1n-24" vertex="1">
           <mxGeometry width="240" height="110.00000000000004" as="geometry" />
         </mxCell>
         <mxCell id="qB8sdOoo1k2XUvbWKR1n-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=-0.006;exitY=0.12;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="qB8sdOoo1k2XUvbWKR1n-23" target="qB8sdOoo1k2XUvbWKR1n-25" edge="1">
