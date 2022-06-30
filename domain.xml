@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-30T07:06:03.254Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="Ycd4R0cF7phOF31HTfZC" version="20.0.4" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-06-30T07:07:52.217Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="rw6lrowzfHymJcKUZ3O3" version="20.0.4" type="github" pages="14">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -288,6 +288,14 @@
         <mxCell id="2ekwP8TWVe6jZVPVIHiI-3" value="Add/Remove Position Set Items" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="200" width="160" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="TPqKZ_JQsmsOaIZN8Sy7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yDlUGEFmWwDXn0Ezn7aV-1" target="TPqKZ_JQsmsOaIZN8Sy7-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1260" y="230" />
+              <mxPoint x="1260" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="yDlUGEFmWwDXn0Ezn7aV-1" value="If Add New Position, Create" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="200" width="160" height="60" as="geometry" />
         </mxCell>
@@ -326,6 +334,9 @@
         </mxCell>
         <mxCell id="IpS91zF67IBQVokpTRu1-9" value="Copy from Existed Company List" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TPqKZ_JQsmsOaIZN8Sy7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oC2YZTW3aEVokTl2Eo-S-2" target="TPqKZ_JQsmsOaIZN8Sy7-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oC2YZTW3aEVokTl2Eo-S-2" value="Assign Survey Company Data Owner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="390" width="120" height="60" as="geometry" />
@@ -381,6 +392,14 @@
         <mxCell id="o9Hno50NtQx6SW0K1Jfv-1" value="Add/Remove Profile Item" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="540" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="TPqKZ_JQsmsOaIZN8Sy7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o9Hno50NtQx6SW0K1Jfv-4" target="TPqKZ_JQsmsOaIZN8Sy7-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1260" y="570" />
+              <mxPoint x="1260" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="o9Hno50NtQx6SW0K1Jfv-4" value="If Add New Standard Profile Item, Create" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="815" y="540" width="150" height="60" as="geometry" />
         </mxCell>
@@ -434,8 +453,19 @@
         <mxCell id="hfNWtmjyP9VxzfA8a_Ap-6" value="Add/Remove Auditing Rule Set Item" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="710" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="TPqKZ_JQsmsOaIZN8Sy7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hfNWtmjyP9VxzfA8a_Ap-9" target="TPqKZ_JQsmsOaIZN8Sy7-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1260" y="740" />
+              <mxPoint x="1260" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hfNWtmjyP9VxzfA8a_Ap-9" value="If Add New Auditing Rule, Create" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="830" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TPqKZ_JQsmsOaIZN8Sy7-1" value="Completed" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="380" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
