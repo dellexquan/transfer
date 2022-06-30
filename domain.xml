@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-30T05:37:00.018Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="0kjU6huzN0m13fqqKWCj" version="20.0.4" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-06-30T05:41:45.482Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="6stHAScNfClBqTFc4Xw3" version="20.0.4" type="github" pages="14">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -246,8 +246,14 @@
         <mxCell id="weaiMQm4t6WV5J2APgEJ-2" value="Setup Survey Target Company List &amp;amp; Bind to Survey" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O2UdJbd_JD5zuk-my8XF-1" value="Setup Survey Format" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="630" width="120" height="60" as="geometry" />
+        <mxCell id="IHVaZECMN2mGRIJAAOVv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O2UdJbd_JD5zuk-my8XF-1" target="IpS91zF67IBQVokpTRu1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IHVaZECMN2mGRIJAAOVv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O2UdJbd_JD5zuk-my8XF-1" target="IHVaZECMN2mGRIJAAOVv-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O2UdJbd_JD5zuk-my8XF-1" value="Setup Profile Map &amp;amp; Bind to Survey" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xWOG2VTid-HU_Hwu8lAq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gAIfhA0eNYKIqjS0mKqK-1" target="xWOG2VTid-HU_Hwu8lAq-1">
           <mxGeometry relative="1" as="geometry" />
@@ -279,34 +285,26 @@
         <mxCell id="yDlUGEFmWwDXn0Ezn7aV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ekwP8TWVe6jZVPVIHiI-3" target="yDlUGEFmWwDXn0Ezn7aV-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2ekwP8TWVe6jZVPVIHiI-3" value="Add Position Set Items" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2ekwP8TWVe6jZVPVIHiI-3" value="Add/Remove Position Set Items" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="200" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oC2YZTW3aEVokTl2Eo-S-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yDlUGEFmWwDXn0Ezn7aV-1" target="weaiMQm4t6WV5J2APgEJ-2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="890" y="320" />
-              <mxPoint x="200" y="320" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yDlUGEFmWwDXn0Ezn7aV-1" value="If new, Create New Position" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yDlUGEFmWwDXn0Ezn7aV-1" value="If Add New Position, Create" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="200" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IpS91zF67IBQVokpTRu1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PYXD_QIS4fnhbIVG4Gic-1" target="IpS91zF67IBQVokpTRu1-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PYXD_QIS4fnhbIVG4Gic-1" value="Add Survey Company" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PYXD_QIS4fnhbIVG4Gic-1" value="Add/Remove Survey Company" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="390" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oC2YZTW3aEVokTl2Eo-S-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IpS91zF67IBQVokpTRu1-1" target="oC2YZTW3aEVokTl2Eo-S-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IpS91zF67IBQVokpTRu1-1" value="If new, Create New Company" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IpS91zF67IBQVokpTRu1-1" value="If Add New Company, Create" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="390" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IpS91zF67IBQVokpTRu1-3" value="Create Survey" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="580" width="120" height="60" as="geometry" />
+        <mxCell id="IpS91zF67IBQVokpTRu1-3" value="Create Profilemap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IpS91zF67IBQVokpTRu1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IpS91zF67IBQVokpTRu1-4" target="2ekwP8TWVe6jZVPVIHiI-3">
           <mxGeometry relative="1" as="geometry" />
@@ -333,12 +331,34 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="670" y="140" />
-              <mxPoint x="200" y="140" />
+              <mxPoint x="80" y="140" />
+              <mxPoint x="80" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oC2YZTW3aEVokTl2Eo-S-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oC2YZTW3aEVokTl2Eo-S-4" target="weaiMQm4t6WV5J2APgEJ-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="140" />
+              <mxPoint x="80" y="140" />
+              <mxPoint x="80" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IHVaZECMN2mGRIJAAOVv-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oC2YZTW3aEVokTl2Eo-S-4" target="O2UdJbd_JD5zuk-my8XF-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="140" />
+              <mxPoint x="80" y="140" />
+              <mxPoint x="80" y="570" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="oC2YZTW3aEVokTl2Eo-S-4" value="Assign Survey Members" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IHVaZECMN2mGRIJAAOVv-3" value="Copy from Existed ProfileMap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="590" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
