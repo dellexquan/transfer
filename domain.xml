@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-30T03:51:19.363Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="LmX1vSwH7xPYdyJII5xB" version="20.0.4" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-06-30T05:32:13.641Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="niiidKBgycWACDfq9x1o" version="20.0.4" type="github" pages="14">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -231,22 +231,31 @@
         <mxCell id="2ekwP8TWVe6jZVPVIHiI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="weaiMQm4t6WV5J2APgEJ-1" target="2ekwP8TWVe6jZVPVIHiI-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="weaiMQm4t6WV5J2APgEJ-1" value="Setup Survey Position" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="160" width="120" height="60" as="geometry" />
+        <mxCell id="IpS91zF67IBQVokpTRu1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="weaiMQm4t6WV5J2APgEJ-1" target="IpS91zF67IBQVokpTRu1-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PYXD_QIS4fnhbIVG4Gic-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="weaiMQm4t6WV5J2APgEJ-2" target="PYXD_QIS4fnhbIVG4Gic-1">
+        <mxCell id="weaiMQm4t6WV5J2APgEJ-1" value="Setup Position Set" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IpS91zF67IBQVokpTRu1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="weaiMQm4t6WV5J2APgEJ-2" target="IpS91zF67IBQVokpTRu1-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IpS91zF67IBQVokpTRu1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="weaiMQm4t6WV5J2APgEJ-2" target="IpS91zF67IBQVokpTRu1-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="weaiMQm4t6WV5J2APgEJ-2" value="Setup Survey Target List" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O2UdJbd_JD5zuk-my8XF-1" value="Setup Survey Format" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xWOG2VTid-HU_Hwu8lAq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gAIfhA0eNYKIqjS0mKqK-1" target="xWOG2VTid-HU_Hwu8lAq-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xWOG2VTid-HU_Hwu8lAq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gAIfhA0eNYKIqjS0mKqK-1" target="xWOG2VTid-HU_Hwu8lAq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IpS91zF67IBQVokpTRu1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gAIfhA0eNYKIqjS0mKqK-1" target="weaiMQm4t6WV5J2APgEJ-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gAIfhA0eNYKIqjS0mKqK-1" value="Create Survey" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -268,13 +277,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2ekwP8TWVe6jZVPVIHiI-3" value="Add Position Set Items" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="160" width="160" height="60" as="geometry" />
+          <mxGeometry x="600" y="200" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yDlUGEFmWwDXn0Ezn7aV-1" value="If new, Create Position" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="160" width="160" height="60" as="geometry" />
+        <mxCell id="yDlUGEFmWwDXn0Ezn7aV-1" value="If new, Create New Position" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IpS91zF67IBQVokpTRu1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PYXD_QIS4fnhbIVG4Gic-1" target="IpS91zF67IBQVokpTRu1-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PYXD_QIS4fnhbIVG4Gic-1" value="Add Survey Company" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="270" width="140" height="60" as="geometry" />
+          <mxGeometry x="610" y="350" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IpS91zF67IBQVokpTRu1-1" value="If new, Create New Company" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="350" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IpS91zF67IBQVokpTRu1-3" value="Create Survey" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IpS91zF67IBQVokpTRu1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IpS91zF67IBQVokpTRu1-4" target="2ekwP8TWVe6jZVPVIHiI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IpS91zF67IBQVokpTRu1-4" value="Copy from Existed Position Set" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IpS91zF67IBQVokpTRu1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IpS91zF67IBQVokpTRu1-8" target="PYXD_QIS4fnhbIVG4Gic-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IpS91zF67IBQVokpTRu1-8" value="Create Company List" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IpS91zF67IBQVokpTRu1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IpS91zF67IBQVokpTRu1-9" target="PYXD_QIS4fnhbIVG4Gic-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IpS91zF67IBQVokpTRu1-9" value="Copy from Existed Company List" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="380" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
