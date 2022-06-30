@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-30T07:02:02.784Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="8OKqXDGB1FXtdlY0b8op" version="20.0.4" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-06-30T07:06:03.254Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="Ycd4R0cF7phOF31HTfZC" version="20.0.4" type="github" pages="14">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -357,6 +357,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="hfNWtmjyP9VxzfA8a_Ap-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oC2YZTW3aEVokTl2Eo-S-4" target="OQp3KXV5nR_gXAqz1RDe-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="140" />
+              <mxPoint x="80" y="140" />
+              <mxPoint x="80" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="oC2YZTW3aEVokTl2Eo-S-4" value="Assign Survey Members" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="30" width="120" height="60" as="geometry" />
         </mxCell>
@@ -397,6 +406,36 @@
         </mxCell>
         <mxCell id="F8_K95SPRbXh9Wp9Hljv-2" value="Create Period if not Existed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="-100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfNWtmjyP9VxzfA8a_Ap-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OQp3KXV5nR_gXAqz1RDe-1" target="hfNWtmjyP9VxzfA8a_Ap-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfNWtmjyP9VxzfA8a_Ap-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OQp3KXV5nR_gXAqz1RDe-1" target="hfNWtmjyP9VxzfA8a_Ap-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OQp3KXV5nR_gXAqz1RDe-1" value="Setup Audtiting Rule Set &amp;amp; Bind to Survey" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfNWtmjyP9VxzfA8a_Ap-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hfNWtmjyP9VxzfA8a_Ap-2" target="hfNWtmjyP9VxzfA8a_Ap-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfNWtmjyP9VxzfA8a_Ap-2" value="Create&amp;nbsp; Auditing Rule Set" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfNWtmjyP9VxzfA8a_Ap-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hfNWtmjyP9VxzfA8a_Ap-3" target="hfNWtmjyP9VxzfA8a_Ap-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfNWtmjyP9VxzfA8a_Ap-3" value="Copy from Existed Auditing Rule Set" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfNWtmjyP9VxzfA8a_Ap-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hfNWtmjyP9VxzfA8a_Ap-6" target="hfNWtmjyP9VxzfA8a_Ap-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfNWtmjyP9VxzfA8a_Ap-6" value="Add/Remove Auditing Rule Set Item" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfNWtmjyP9VxzfA8a_Ap-9" value="If Add New Auditing Rule, Create" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="710" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -588,7 +627,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ON_0MwB7-lKEPDIA7HMC" name="Report Profile Map">
-    <mxGraphModel dx="2128" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2512" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -847,7 +886,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ho8suCrAu7t21qBo31YV" name="Auditing Rule Set">
-    <mxGraphModel dx="2573" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2489" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
