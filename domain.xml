@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-30T03:35:58.404Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="YaThLH5ukxDOQbphuwh5" version="20.0.4" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-06-30T03:42:13.409Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="xKYIcg03vDVGY1UJljc0" version="20.0.4" type="github" pages="14">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -229,16 +229,28 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="weaiMQm4t6WV5J2APgEJ-1" value="Setup Survey Position" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="weaiMQm4t6WV5J2APgEJ-2" value="Setup Survey Target List" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O2UdJbd_JD5zuk-my8XF-1" value="Setup Survey Format" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xWOG2VTid-HU_Hwu8lAq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gAIfhA0eNYKIqjS0mKqK-1" target="xWOG2VTid-HU_Hwu8lAq-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xWOG2VTid-HU_Hwu8lAq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gAIfhA0eNYKIqjS0mKqK-1" target="xWOG2VTid-HU_Hwu8lAq-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gAIfhA0eNYKIqjS0mKqK-1" value="Create Survey" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="20" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xWOG2VTid-HU_Hwu8lAq-1" value="Create Survey" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xWOG2VTid-HU_Hwu8lAq-3" value="Copy From Existed Survey" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="90" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -471,7 +483,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cNaONzvC6TOGn3BkPh-x" name="Survey">
-    <mxGraphModel dx="2573" dy="2033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2489" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -766,7 +778,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NQgp5lyktQ2gkcqSVqB2" name="Position Set">
-    <mxGraphModel dx="1746" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
