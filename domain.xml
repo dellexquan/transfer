@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-01T03:33:36.235Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="nb9Wd5nOqqptYwBG6JMw" version="20.0.4" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-07-01T03:34:19.494Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="zF6AGWFNRv737w-ynbq-" version="20.0.4" type="github" pages="14">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1278" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -465,10 +465,13 @@
           <mxGeometry x="830" y="710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TPqKZ_JQsmsOaIZN8Sy7-1" value="Completed" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="380" width="120" height="80" as="geometry" />
+          <mxGeometry x="1530" y="380" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gZqjk14XLdLY_D1cGN0h-4" value="Remove Lock" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5abbyr34k2ObZZ-38y6z-1" value="Set Survey Active" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="390" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
