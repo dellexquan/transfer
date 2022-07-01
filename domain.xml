@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-01T03:38:18.184Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="W7UipLKCDD2FSMII1Erd" version="20.0.4" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-07-01T03:40:36.146Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="8mNtGnwVtzbafXO9V8cS" version="20.0.4" type="github" pages="14">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1278" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -723,7 +723,7 @@
         <mxCell id="Q1zl5EV7BeLk5g2Kit2f-1" value="SurveyStatus: Enum" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="940" y="140" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Q1zl5EV7BeLk5g2Kit2f-2" value="+ Draft&#xa;+ Active&#xa;+ Complete&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Q1zl5EV7BeLk5g2Kit2f-1" vertex="1">
+        <mxCell id="Q1zl5EV7BeLk5g2Kit2f-2" value="+ Active&#xa;+ Inactive" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Q1zl5EV7BeLk5g2Kit2f-1" vertex="1">
           <mxGeometry y="26" width="140" height="64" as="geometry" />
         </mxCell>
         <mxCell id="YBY6IWB1IHOW2FLOx0pJ-1" value="SurveyCompany: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
