@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-06T07:14:27.611Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="p3SGbMI3CsQtTwyigCCS" version="20.0.4" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-07-06T07:15:46.859Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="C7G-Url-42gSqY2nwTim" version="20.0.4" type="github" pages="16">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -331,28 +331,19 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2ekwP8TWVe6jZVPVIHiI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="weaiMQm4t6WV5J2APgEJ-1" target="2ekwP8TWVe6jZVPVIHiI-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="IpS91zF67IBQVokpTRu1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="weaiMQm4t6WV5J2APgEJ-1" target="IpS91zF67IBQVokpTRu1-4" edge="1">
+        <mxCell id="QuZyFZuX1N0VRXrNUe1l-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="weaiMQm4t6WV5J2APgEJ-1" target="QuZyFZuX1N0VRXrNUe1l-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="weaiMQm4t6WV5J2APgEJ-1" value="Setup Position Set&lt;br&gt;&amp;amp; Bind to Survey" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IpS91zF67IBQVokpTRu1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="weaiMQm4t6WV5J2APgEJ-2" target="IpS91zF67IBQVokpTRu1-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="IpS91zF67IBQVokpTRu1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="weaiMQm4t6WV5J2APgEJ-2" target="IpS91zF67IBQVokpTRu1-9" edge="1">
+        <mxCell id="QuZyFZuX1N0VRXrNUe1l-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="weaiMQm4t6WV5J2APgEJ-2" target="QuZyFZuX1N0VRXrNUe1l-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="weaiMQm4t6WV5J2APgEJ-2" value="Setup Survey Target Company List" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IHVaZECMN2mGRIJAAOVv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="O2UdJbd_JD5zuk-my8XF-1" target="IpS91zF67IBQVokpTRu1-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="IHVaZECMN2mGRIJAAOVv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="O2UdJbd_JD5zuk-my8XF-1" target="IHVaZECMN2mGRIJAAOVv-3" edge="1">
+        <mxCell id="QuZyFZuX1N0VRXrNUe1l-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="O2UdJbd_JD5zuk-my8XF-1" target="QuZyFZuX1N0VRXrNUe1l-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O2UdJbd_JD5zuk-my8XF-1" value="Setup IPD / NPD Profile Map &amp;amp; Bind to Survey" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -375,9 +366,6 @@
         </mxCell>
         <mxCell id="2ekwP8TWVe6jZVPVIHiI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2ekwP8TWVe6jZVPVIHiI-1" target="2ekwP8TWVe6jZVPVIHiI-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2ekwP8TWVe6jZVPVIHiI-1" value="Create Position Set" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="400" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yDlUGEFmWwDXn0Ezn7aV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2ekwP8TWVe6jZVPVIHiI-3" target="yDlUGEFmWwDXn0Ezn7aV-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -417,20 +405,11 @@
         <mxCell id="IpS91zF67IBQVokpTRu1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IpS91zF67IBQVokpTRu1-4" target="2ekwP8TWVe6jZVPVIHiI-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IpS91zF67IBQVokpTRu1-4" value="Copy from Existed Position Set" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="400" y="230" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="IpS91zF67IBQVokpTRu1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IpS91zF67IBQVokpTRu1-8" target="PYXD_QIS4fnhbIVG4Gic-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IpS91zF67IBQVokpTRu1-8" value="Create&amp;nbsp; Company List" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="400" y="350" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="IpS91zF67IBQVokpTRu1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IpS91zF67IBQVokpTRu1-9" target="PYXD_QIS4fnhbIVG4Gic-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="IpS91zF67IBQVokpTRu1-9" value="Copy from Existed Company List" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="400" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TPqKZ_JQsmsOaIZN8Sy7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="oC2YZTW3aEVokTl2Eo-S-2" target="TPqKZ_JQsmsOaIZN8Sy7-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -523,10 +502,7 @@
         <mxCell id="F8_K95SPRbXh9Wp9Hljv-2" value="Create Period if not Existed" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="-100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hfNWtmjyP9VxzfA8a_Ap-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OQp3KXV5nR_gXAqz1RDe-1" target="hfNWtmjyP9VxzfA8a_Ap-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="hfNWtmjyP9VxzfA8a_Ap-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OQp3KXV5nR_gXAqz1RDe-1" target="hfNWtmjyP9VxzfA8a_Ap-3" edge="1">
+        <mxCell id="QuZyFZuX1N0VRXrNUe1l-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="OQp3KXV5nR_gXAqz1RDe-1" target="QuZyFZuX1N0VRXrNUe1l-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OQp3KXV5nR_gXAqz1RDe-1" value="Setup Audtiting Rule Set &amp;amp; Bind to Survey" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -594,6 +570,42 @@
         </mxCell>
         <mxCell id="xWOG2VTid-HU_Hwu8lAq-3" value="Copy From Existed Survey" style="rounded=0;whiteSpace=wrap;html=1;" parent="W9yfGEckQXnR_d2G0-YB-1" vertex="1">
           <mxGeometry x="386" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QuZyFZuX1N0VRXrNUe1l-8" value="If new" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="W9yfGEckQXnR_d2G0-YB-1">
+          <mxGeometry x="251" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QuZyFZuX1N0VRXrNUe1l-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="W9yfGEckQXnR_d2G0-YB-1" source="QuZyFZuX1N0VRXrNUe1l-9" target="IpS91zF67IBQVokpTRu1-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QuZyFZuX1N0VRXrNUe1l-9" value="If new" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="W9yfGEckQXnR_d2G0-YB-1">
+          <mxGeometry x="251" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QuZyFZuX1N0VRXrNUe1l-10" value="If new" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="W9yfGEckQXnR_d2G0-YB-1">
+          <mxGeometry x="251" y="710" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QuZyFZuX1N0VRXrNUe1l-11" value="If new" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="W9yfGEckQXnR_d2G0-YB-1">
+          <mxGeometry x="251" y="880" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2ekwP8TWVe6jZVPVIHiI-1" value="Create Position Set" style="rounded=0;whiteSpace=wrap;html=1;" parent="W9yfGEckQXnR_d2G0-YB-1" vertex="1">
+          <mxGeometry x="371" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QuZyFZuX1N0VRXrNUe1l-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="W9yfGEckQXnR_d2G0-YB-1" source="QuZyFZuX1N0VRXrNUe1l-8" target="2ekwP8TWVe6jZVPVIHiI-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IpS91zF67IBQVokpTRu1-4" value="Copy from Existed Position Set" style="rounded=0;whiteSpace=wrap;html=1;" parent="W9yfGEckQXnR_d2G0-YB-1" vertex="1">
+          <mxGeometry x="371" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QuZyFZuX1N0VRXrNUe1l-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="W9yfGEckQXnR_d2G0-YB-1" source="QuZyFZuX1N0VRXrNUe1l-8" target="IpS91zF67IBQVokpTRu1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IpS91zF67IBQVokpTRu1-8" value="Create&amp;nbsp; Company List" style="rounded=0;whiteSpace=wrap;html=1;" parent="W9yfGEckQXnR_d2G0-YB-1" vertex="1">
+          <mxGeometry x="386" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QuZyFZuX1N0VRXrNUe1l-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="W9yfGEckQXnR_d2G0-YB-1" source="QuZyFZuX1N0VRXrNUe1l-9" target="IpS91zF67IBQVokpTRu1-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IpS91zF67IBQVokpTRu1-9" value="Copy from Existed Company List" style="rounded=0;whiteSpace=wrap;html=1;" parent="W9yfGEckQXnR_d2G0-YB-1" vertex="1">
+          <mxGeometry x="386" y="590" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
