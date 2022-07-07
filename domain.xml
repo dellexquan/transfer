@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-07T10:08:19.613Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="a7nZOCYFz92iMVIYkU3G" version="20.0.4" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-07-07T10:28:21.082Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="dZ9vzGCwfpdtDKjsaYrN" version="20.0.4" type="github" pages="16">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -279,8 +279,58 @@
         <mxCell id="MTWW_4lAcBzNvrthkqmA-1" value="Create Period if not Existed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="-975" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mmrN7HQvuaQmCkIwN9Ze-1" value="Create Survey" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mmrN7HQvuaQmCkIwN9Ze-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mmrN7HQvuaQmCkIwN9Ze-1" target="mmrN7HQvuaQmCkIwN9Ze-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mmrN7HQvuaQmCkIwN9Ze-1" value="Create Init Report Dataset &amp;amp; Import from Limesurvey" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="-870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mmrN7HQvuaQmCkIwN9Ze-4" value="Limesurvey" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-1060" width="200" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="mmrN7HQvuaQmCkIwN9Ze-5" value="People Analytics" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-1060" width="230" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="mmrN7HQvuaQmCkIwN9Ze-6" value="ADE" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-1060" width="510" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="mmrN7HQvuaQmCkIwN9Ze-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mmrN7HQvuaQmCkIwN9Ze-6" source="mmrN7HQvuaQmCkIwN9Ze-7" target="mmrN7HQvuaQmCkIwN9Ze-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mmrN7HQvuaQmCkIwN9Ze-7" value="Review and Publish to Release Data Set" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mmrN7HQvuaQmCkIwN9Ze-6">
+          <mxGeometry x="110" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mmrN7HQvuaQmCkIwN9Ze-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mmrN7HQvuaQmCkIwN9Ze-6" source="mmrN7HQvuaQmCkIwN9Ze-9" target="mmrN7HQvuaQmCkIwN9Ze-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mmrN7HQvuaQmCkIwN9Ze-9" value="Add formulas if needed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mmrN7HQvuaQmCkIwN9Ze-6">
+          <mxGeometry x="110" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mmrN7HQvuaQmCkIwN9Ze-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="mmrN7HQvuaQmCkIwN9Ze-6" source="mmrN7HQvuaQmCkIwN9Ze-11" target="mmrN7HQvuaQmCkIwN9Ze-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="490" />
+              <mxPoint x="330" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mmrN7HQvuaQmCkIwN9Ze-11" value="Publish to Report Data Set" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mmrN7HQvuaQmCkIwN9Ze-6">
+          <mxGeometry x="110" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mmrN7HQvuaQmCkIwN9Ze-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mmrN7HQvuaQmCkIwN9Ze-6" source="mmrN7HQvuaQmCkIwN9Ze-13" target="mmrN7HQvuaQmCkIwN9Ze-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mmrN7HQvuaQmCkIwN9Ze-13" value="Clean Data for Each question in Report Analysis Page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mmrN7HQvuaQmCkIwN9Ze-6">
+          <mxGeometry x="370" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mmrN7HQvuaQmCkIwN9Ze-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mmrN7HQvuaQmCkIwN9Ze-6" source="mmrN7HQvuaQmCkIwN9Ze-15" target="mmrN7HQvuaQmCkIwN9Ze-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mmrN7HQvuaQmCkIwN9Ze-15" value="Choose Analysis Type" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mmrN7HQvuaQmCkIwN9Ze-6">
+          <mxGeometry x="370" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mmrN7HQvuaQmCkIwN9Ze-17" value="Export and Review Analysis Result Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mmrN7HQvuaQmCkIwN9Ze-6">
+          <mxGeometry x="370" y="260" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
