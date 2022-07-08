@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-08T06:25:25.393Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="F1WqD19fQxEGZysuCzhx" version="20.0.4" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2022-07-08T06:26:53.839Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="PwSYp6smZrTnuAOuNMzE" version="20.0.4" type="github" pages="17">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -351,14 +351,8 @@
         <mxCell id="MfXPPL9VdyreGlJHyHdk-12" value="Data Collection" style="swimlane;horizontal=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="440" width="1190" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="MfXPPL9VdyreGlJHyHdk-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MfXPPL9VdyreGlJHyHdk-12" source="MfXPPL9VdyreGlJHyHdk-11" target="MfXPPL9VdyreGlJHyHdk-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="MfXPPL9VdyreGlJHyHdk-11" value="Send Invitation Email / Reminder Email" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MfXPPL9VdyreGlJHyHdk-12">
           <mxGeometry x="230" y="30" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="MfXPPL9VdyreGlJHyHdk-14" value="If Comp Survey" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="MfXPPL9VdyreGlJHyHdk-12">
-          <mxGeometry x="250" y="110" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Z4DxWmaX5yqKUfWZmgHk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z4DxWmaX5yqKUfWZmgHk-8" target="MfXPPL9VdyreGlJHyHdk-11">
           <mxGeometry relative="1" as="geometry">
@@ -367,6 +361,9 @@
               <mxPoint x="350" y="400" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Z4DxWmaX5yqKUfWZmgHk-15" value="OP" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="83" y="7" width="1167" height="963" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
