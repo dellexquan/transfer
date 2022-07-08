@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-08T06:47:06.542Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="TPAZNN5RcoGH01Jk0A8K" version="20.0.4" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2022-07-08T06:49:42.301Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="PvHjW1SBcnBWqAAKQarG" version="20.0.4" type="github" pages="17">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -354,13 +354,16 @@
           <mxGeometry x="1040" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MfXPPL9VdyreGlJHyHdk-12" value="Data Collection" style="swimlane;horizontal=0;" vertex="1" parent="1">
-          <mxGeometry x="61" y="440" width="1749" height="310" as="geometry" />
+          <mxGeometry x="61" y="440" width="1749" height="430" as="geometry" />
         </mxCell>
         <mxCell id="Z4DxWmaX5yqKUfWZmgHk-15" value="OP" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="83" y="7" width="1167" height="963" as="geometry" />
         </mxCell>
         <mxCell id="MfXPPL9VdyreGlJHyHdk-11" value="Send Invitation Email / Reminder Email" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Z4DxWmaX5yqKUfWZmgHk-15">
           <mxGeometry x="1017" y="463" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4DxWmaX5yqKUfWZmgHk-26" value="Offline Survey" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Z4DxWmaX5yqKUfWZmgHk-15">
+          <mxGeometry x="1017" y="753" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Z4DxWmaX5yqKUfWZmgHk-16" value="Client" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="1250" y="7" width="560" height="963" as="geometry" />
@@ -385,19 +388,8 @@
         <mxCell id="Z4DxWmaX5yqKUfWZmgHk-20" value="Download CIW with Prep-pop if need" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Z4DxWmaX5yqKUfWZmgHk-16">
           <mxGeometry x="180" y="463" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Z4DxWmaX5yqKUfWZmgHk-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Z4DxWmaX5yqKUfWZmgHk-16" source="Z4DxWmaX5yqKUfWZmgHk-22" target="Z4DxWmaX5yqKUfWZmgHk-26">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="400" y="543" />
-              <mxPoint x="240" y="543" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z4DxWmaX5yqKUfWZmgHk-22" value="Fill CIW" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Z4DxWmaX5yqKUfWZmgHk-16">
+        <mxCell id="Z4DxWmaX5yqKUfWZmgHk-22" value="Fill CIW &amp;amp; Upload" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Z4DxWmaX5yqKUfWZmgHk-16">
           <mxGeometry x="340" y="463" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Z4DxWmaX5yqKUfWZmgHk-26" value="Upload CIW to Submit Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Z4DxWmaX5yqKUfWZmgHk-16">
-          <mxGeometry x="180" y="563" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Z4DxWmaX5yqKUfWZmgHk-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Z4DxWmaX5yqKUfWZmgHk-16" source="Z4DxWmaX5yqKUfWZmgHk-28" target="Z4DxWmaX5yqKUfWZmgHk-30">
           <mxGeometry relative="1" as="geometry" />
@@ -413,6 +405,17 @@
         </mxCell>
         <mxCell id="Z4DxWmaX5yqKUfWZmgHk-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z4DxWmaX5yqKUfWZmgHk-8" target="MfXPPL9VdyreGlJHyHdk-11">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4DxWmaX5yqKUfWZmgHk-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Z4DxWmaX5yqKUfWZmgHk-30" target="Z4DxWmaX5yqKUfWZmgHk-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4DxWmaX5yqKUfWZmgHk-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z4DxWmaX5yqKUfWZmgHk-22" target="Z4DxWmaX5yqKUfWZmgHk-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1770" y="500" />
+              <mxPoint x="1770" y="790" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
