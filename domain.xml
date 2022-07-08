@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-08T01:44:18.075Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="0qi9vwsukC6Mhaob1uPf" version="20.0.4" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-07-08T02:10:12.980Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="BRjc6f7Q-jp0Jg8UBWpl" version="20.0.4" type="github" pages="16">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -224,17 +224,17 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1OH0wPcNn-poCuR6zae0" name="Policy Survey Setup">
-    <mxGraphModel dx="1662" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="988" dy="1502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_1nt553KHDCTi3i9U2sJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZdrisSVpRvFRT1r7osmE-1" target="_1nt553KHDCTi3i9U2sJ-1" edge="1">
+        <mxCell id="X3DxAMYWQZ-6SfEUVWaa-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZdrisSVpRvFRT1r7osmE-1" target="L66aDndRqbpt5AqlPZ-T-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZdrisSVpRvFRT1r7osmE-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="-970" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="u0lZdr-G1hIteOVDxlI7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_1nt553KHDCTi3i9U2sJ-1" target="L66aDndRqbpt5AqlPZ-T-1" edge="1">
+        <mxCell id="X3DxAMYWQZ-6SfEUVWaa-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_1nt553KHDCTi3i9U2sJ-1" target="hjeeqrVhxcUyR-F5j7kB-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_1nt553KHDCTi3i9U2sJ-1" value="Setup Limesurvey" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -287,9 +287,6 @@
         </mxCell>
         <mxCell id="u0lZdr-G1hIteOVDxlI7-2" value="Offline Survey" style="rounded=0;whiteSpace=wrap;html=1;" parent="mmrN7HQvuaQmCkIwN9Ze-5" vertex="1">
           <mxGeometry x="60" y="440" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="pRBg6JM9oCv7m4C8LQ8Y-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mmrN7HQvuaQmCkIwN9Ze-5" source="hjeeqrVhxcUyR-F5j7kB-16" target="hjeeqrVhxcUyR-F5j7kB-21">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hjeeqrVhxcUyR-F5j7kB-16" value="Link Survey in Limesurvey" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mmrN7HQvuaQmCkIwN9Ze-5">
           <mxGeometry x="60" y="160" width="120" height="60" as="geometry" />
@@ -430,6 +427,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="X3DxAMYWQZ-6SfEUVWaa-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="X3DxAMYWQZ-6SfEUVWaa-12" target="X3DxAMYWQZ-6SfEUVWaa-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X3DxAMYWQZ-6SfEUVWaa-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hjeeqrVhxcUyR-F5j7kB-16" target="_1nt553KHDCTi3i9U2sJ-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
