@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-08T07:14:52.155Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="w5rmdQRp0r4Dyytef13U" version="20.0.4" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2022-07-08T07:17:27.734Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="rjY09wqw7rz3mBkZUWIU" version="20.0.4" type="github" pages="17">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -425,11 +425,25 @@
         <mxCell id="Z4DxWmaX5yqKUfWZmgHk-35" value="Data Cleaning" style="swimlane;horizontal=0;" vertex="1" parent="1">
           <mxGeometry x="61" y="871" width="1749" height="289" as="geometry" />
         </mxCell>
-        <mxCell id="hbzou15OmNTf5GlGcWtL-1" value="Auditing By Company Data Version" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Z4DxWmaX5yqKUfWZmgHk-35">
-          <mxGeometry x="169" y="39" width="120" height="60" as="geometry" />
+        <mxCell id="hbzou15OmNTf5GlGcWtL-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Z4DxWmaX5yqKUfWZmgHk-35" source="hbzou15OmNTf5GlGcWtL-1" target="hbzou15OmNTf5GlGcWtL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hbzou15OmNTf5GlGcWtL-1" value="Auditing Company Data Version" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Z4DxWmaX5yqKUfWZmgHk-35">
+          <mxGeometry x="279" y="39" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hbzou15OmNTf5GlGcWtL-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Z4DxWmaX5yqKUfWZmgHk-35" source="hbzou15OmNTf5GlGcWtL-2" target="hbzou15OmNTf5GlGcWtL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hbzou15OmNTf5GlGcWtL-5" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hbzou15OmNTf5GlGcWtL-4">
+          <mxGeometry x="-0.2414" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="hbzou15OmNTf5GlGcWtL-2" value="If Comp Survey" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Z4DxWmaX5yqKUfWZmgHk-35">
           <mxGeometry x="54" y="29" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hbzou15OmNTf5GlGcWtL-6" value="Release Company Data Version" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Z4DxWmaX5yqKUfWZmgHk-35">
+          <mxGeometry x="459" y="39" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hbzou15OmNTf5GlGcWtL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z4DxWmaX5yqKUfWZmgHk-26" target="hbzou15OmNTf5GlGcWtL-2">
           <mxGeometry relative="1" as="geometry" />
