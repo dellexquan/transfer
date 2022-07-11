@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T02:29:56.005Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="i5DMgm9OAckiyvt1Z05j" version="20.0.4" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2022-07-11T02:30:14.304Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="xU9HgJ2GG8eIIAeeQcST" version="20.0.4" type="github" pages="18">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -546,15 +546,6 @@
         <mxCell id="OIoEiFOfwz1nzxHyK4E1-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="OIoEiFOfwz1nzxHyK4E1-1" source="OIoEiFOfwz1nzxHyK4E1-81" target="OIoEiFOfwz1nzxHyK4E1-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OIoEiFOfwz1nzxHyK4E1-83" value="View Report &amp;amp; Upload My Data to Compare if need" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OIoEiFOfwz1nzxHyK4E1-1">
-          <mxGeometry x="1350" y="1340" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="OIoEiFOfwz1nzxHyK4E1-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OIoEiFOfwz1nzxHyK4E1-1" source="OIoEiFOfwz1nzxHyK4E1-83" target="OIoEiFOfwz1nzxHyK4E1-86">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OIoEiFOfwz1nzxHyK4E1-86" value="Submit Peer Cut&amp;nbsp; / Custom Report Request if need" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OIoEiFOfwz1nzxHyK4E1-1">
-          <mxGeometry x="1540" y="1340" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="OIoEiFOfwz1nzxHyK4E1-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="OIoEiFOfwz1nzxHyK4E1-1" source="OIoEiFOfwz1nzxHyK4E1-86" target="OIoEiFOfwz1nzxHyK4E1-70">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -572,6 +563,15 @@
         </mxCell>
         <mxCell id="vmHTREBKhN2p-1jia7Wh-16" value="Reporting" style="swimlane;horizontal=0;" vertex="1" parent="OIoEiFOfwz1nzxHyK4E1-1">
           <mxGeometry x="61" y="1310" width="1750" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="OIoEiFOfwz1nzxHyK4E1-83" value="View Report &amp;amp; Upload My Data to Compare if need" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vmHTREBKhN2p-1jia7Wh-16">
+          <mxGeometry x="1309" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OIoEiFOfwz1nzxHyK4E1-86" value="Submit Peer Cut&amp;nbsp; / Custom Report Request if need" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vmHTREBKhN2p-1jia7Wh-16">
+          <mxGeometry x="1469" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OIoEiFOfwz1nzxHyK4E1-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vmHTREBKhN2p-1jia7Wh-16" source="OIoEiFOfwz1nzxHyK4E1-83" target="OIoEiFOfwz1nzxHyK4E1-86">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
