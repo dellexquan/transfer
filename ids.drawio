@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-15T05:46:16.490Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="C67i4ygYOU4uH2Ia0hK_" version="20.1.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-15T05:46:40.807Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="-fbIjLjjFUIBWVZtU1dv" version="20.1.1" type="github" pages="7">
   <diagram id="swRwdmD24nRBNKfR8wYX" name="Overall">
     <mxGraphModel dx="3361" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -191,7 +191,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4oMpkSNZn0KU_wKnw_V8-1" value="&lt;p style=&quot;line-height: 1.4&quot;&gt;&lt;/p&gt;&lt;div style=&quot;text-align: left&quot;&gt;1. 认证服务只负责认证，包括登录认证以及SSO认证&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;2. 内部用户可以通过Back-end，由系统Admin创建并且授权&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;3. 外部用户则由对应系统的OP在对应系统的中台创建并且授权&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;4. 如果一个自然人需要多个系统，则这个自然人会在每个系统都有一个账户，但是这个账户的名称应该是一致的，所以该自然人在AD里面只有一个对应的用户&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;5. 注册用户，由中台API发起。&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="4oMpkSNZn0KU_wKnw_V8-1" value="&lt;p style=&quot;line-height: 1.4&quot;&gt;&lt;/p&gt;&lt;div style=&quot;text-align: left&quot;&gt;1. 认证服务只负责登录认证&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;2. 内部用户可以通过Back-end，由系统Admin创建并且授权&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;3. 外部用户则由对应系统的OP在对应系统的中台创建并且授权&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;4. 如果一个自然人需要多个系统，则这个自然人会在每个系统都有一个账户，但是这个账户的名称应该是一致的，所以该自然人在AD里面只有一个对应的用户&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;5. 注册用户，由中台API发起。&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="107" y="-80" width="400" height="160" as="geometry" />
         </mxCell>
       </root>
