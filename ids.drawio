@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-15T07:34:02.969Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="P_7mRzo7Wqw_-74yd0qo" version="20.1.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-15T07:39:16.704Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="Owm3zLQ7eq0oEASYVyhb" version="20.1.1" type="github" pages="7">
   <diagram id="swRwdmD24nRBNKfR8wYX" name="Overall">
     <mxGraphModel dx="3190" dy="1647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -384,7 +384,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="1. Login#2" id="_Wfz3NMBEmT7sMtxBxJj">
-    <mxGraphModel dx="2511" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2340" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="FKMZ6QL55wnliXa2MSdZ-0" />
         <mxCell id="FKMZ6QL55wnliXa2MSdZ-1" parent="FKMZ6QL55wnliXa2MSdZ-0" />
@@ -524,11 +524,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="62KNu0T7i3XhhvO_WbGN" name="0. Register User">
-    <mxGraphModel dx="3361" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3190" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="goxFKX7G7YGkkBOSEjHI-1" value="Front-end Client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="goxFKX7G7YGkkBOSEjHI-1" value="UI Client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-811" y="20" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="goxFKX7G7YGkkBOSEjHI-2" value="Middle-end API Hosting" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
