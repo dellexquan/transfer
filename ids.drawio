@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-15T03:43:54.142Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="snsiEcoKFmDX-JezhG_N" version="20.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-07-15T03:46:59.020Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="jUaGL4Ys2hF8HDOg_jTC" version="20.1.1" type="github" pages="4">
   <diagram id="swRwdmD24nRBNKfR8wYX" name="Overall">
     <mxGraphModel dx="3361" dy="1805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -382,6 +382,9 @@
             <mxPoint x="-334" y="311.08000000000004" as="targetPoint" />
             <mxPoint x="-79" y="311" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="SULmTjNVrhZw2l5r2Qoi-1" value="&lt;p style=&quot;line-height: 1.4&quot;&gt;&lt;/p&gt;&lt;div style=&quot;text-align: left&quot;&gt;1. 前端用户传输现有的token以及目标跳转的系统tenant给认证服务&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;2. 认证服务解析现有的token获得用户名，通过AD的接口用用户名查询用户信息&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;3. 认证服务利用用户信息中可以访问的Tenant，对Tenant参数进行比对&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;4. 如果比对通过，则返回前端用户在该tenant下对应的User的Token&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="430" width="400" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
