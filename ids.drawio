@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-15T05:37:40.045Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="dVq7q04DCqIdseQF4DlC" version="20.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-07-15T05:38:32.419Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="RMc3A6w2sSPsVFbSYHkp" version="20.1.1" type="github" pages="8">
   <diagram id="swRwdmD24nRBNKfR8wYX" name="Overall">
     <mxGraphModel dx="3361" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -563,7 +563,7 @@
             <mxPoint x="-109.5" y="165" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lZQsWvshrxenJSVke2LE-1" value="&lt;p style=&quot;line-height: 1.4&quot;&gt;&lt;/p&gt;&lt;div style=&quot;text-align: left&quot;&gt;1. 注册AD用户时，会先用username检验是否AD用户已存在，如果不存在，则创建。&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;2. 同时会更新AD用户可以访问的Tenant的信息。&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="lZQsWvshrxenJSVke2LE-1" value="&lt;p style=&quot;line-height: 1.4&quot;&gt;&lt;/p&gt;&lt;div style=&quot;text-align: left&quot;&gt;1. 注册AD用户时，会先用username检验是否AD用户已存在，如果不存在，则创建。&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;2. 同时会更新AD用户可以访问的Tenant的信息。&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-625" y="410" width="400" height="160" as="geometry" />
         </mxCell>
       </root>
@@ -667,7 +667,7 @@
             <mxPoint x="-78.5" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="60YSGU3nvhdCub-GHOsX-1" value="1. 禁用AD用户时，会检查该用户对应的AD用户可以访问的Tenant的信息。&lt;br&gt;2. 如果AD用户只能访问的Tenant只剩最后一个，则将用户可以访问对的Tenant信息清空，同时禁用该用户&lt;br&gt;3. 如果剩余多个Tenant，则只是清空当前用户对应的Tenant。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="60YSGU3nvhdCub-GHOsX-1" value="1. 禁用AD用户时，会检查该用户对应的AD用户可以访问的Tenant的信息。&lt;br&gt;2. 如果AD用户只能访问的Tenant只剩最后一个，则将用户可以访问对的Tenant信息清空，同时删除该用户&lt;br&gt;3. 如果剩余多个Tenant，则只是清空当前用户对应的Tenant。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-610" y="480" width="340" height="260" as="geometry" />
         </mxCell>
       </root>
