@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-15T05:42:44.873Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="-2ClC1JKl4EyafxyC4wl" version="20.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-07-15T05:42:57.953Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="XzC-KICUPtzg1dJ1HCG2" version="20.1.1" type="github" pages="7">
   <diagram id="swRwdmD24nRBNKfR8wYX" name="Overall">
     <mxGraphModel dx="3361" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -762,53 +762,6 @@
           <mxGeometry x="640" y="270" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XozQwCqU7QT5nh0J8-M1-0" value="&lt;p style=&quot;line-height: 1.4&quot;&gt;&lt;/p&gt;&lt;div style=&quot;text-align: left&quot;&gt;如果是我司内部员工，可以用公司邮箱&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="L1Mf95bSvP_y_2SZ22Zz-1">
-          <mxGeometry x="210" y="450" width="400" height="160" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="BhMGsSF-7-p4JqUrjtgm" name="UserName#4">
-    <mxGraphModel dx="1661" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="6CYM_vo727gzPjNadY8B-1" value="#1: HR for Multiple Sites(Tenants)" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="360" y="30" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Fji1bQftIq7ZZtXQtaB1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Fji1bQftIq7ZZtXQtaB1-1" target="Fji1bQftIq7ZZtXQtaB1-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Fji1bQftIq7ZZtXQtaB1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Fji1bQftIq7ZZtXQtaB1-1" target="Fji1bQftIq7ZZtXQtaB1-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Fji1bQftIq7ZZtXQtaB1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Fji1bQftIq7ZZtXQtaB1-1" target="Fji1bQftIq7ZZtXQtaB1-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Fji1bQftIq7ZZtXQtaB1-1" value="HR" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="250" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="Fji1bQftIq7ZZtXQtaB1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Fji1bQftIq7ZZtXQtaB1-2" target="Fji1bQftIq7ZZtXQtaB1-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Fji1bQftIq7ZZtXQtaB1-2" value="Rewards: User(@username=&quot;xyz@az.com&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="180" width="320" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Fji1bQftIq7ZZtXQtaB1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Fji1bQftIq7ZZtXQtaB1-5" target="Fji1bQftIq7ZZtXQtaB1-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Fji1bQftIq7ZZtXQtaB1-5" value="Flex: User(@username=&quot;xyz@az.com&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="270" width="320" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Fji1bQftIq7ZZtXQtaB1-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Fji1bQftIq7ZZtXQtaB1-6" target="Fji1bQftIq7ZZtXQtaB1-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Fji1bQftIq7ZZtXQtaB1-6" value="HBEM: User(@username=&quot;xyz@az.com&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="360" width="320" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Fji1bQftIq7ZZtXQtaB1-12" value="AD: User(@username=&quot;xyz@az.com&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="270" width="320" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rvwJmrOPIjj-QqDZwf23-1" value="&lt;p style=&quot;line-height: 1.4&quot;&gt;&lt;/p&gt;&lt;div style=&quot;text-align: left&quot;&gt;如果是企业HR，可以用公司邮箱&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="210" y="450" width="400" height="160" as="geometry" />
         </mxCell>
       </root>
