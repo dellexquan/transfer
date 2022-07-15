@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-15T03:34:12.782Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="LuTEsEnH30UIeC0GLY93" version="20.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-07-15T03:35:47.897Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="Njse6a_3ZyUEOCAHGEqV" version="20.1.1" type="github" pages="4">
   <diagram id="swRwdmD24nRBNKfR8wYX" name="Overall">
     <mxGraphModel dx="3361" dy="1805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -346,6 +346,36 @@
         </mxCell>
         <mxCell id="YNKhRGPFs1xEIjL73lB0-14" value="new token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;" vertex="1" parent="1">
           <mxGeometry x="-549" y="330" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_v_XthfReNC5KH-viZOh-1" value="Active Directory / Open LDAP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-163" y="30" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_v_XthfReNC5KH-viZOh-2" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_v_XthfReNC5KH-viZOh-1">
+          <mxGeometry x="-31.139999999999986" y="307.52" width="100" height="100" as="geometry">
+            <mxPoint x="-71.13999999999987" y="87.51999999999998" as="sourcePoint" />
+            <mxPoint x="-75" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v_XthfReNC5KH-viZOh-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-78" y="240" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_v_XthfReNC5KH-viZOh-4" value="query_user(user_name)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="220" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_v_XthfReNC5KH-viZOh-5" value="user_info" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="282" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0KWLfN7v-z8Cr_9S8KCd-1" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fontColor=none;exitX=1.5;exitY=0.176;exitDx=0;exitDy=0;exitPerimeter=0;noLabel=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-334" y="252.91999999999996" as="sourcePoint" />
+            <mxPoint x="-79" y="253.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0KWLfN7v-z8Cr_9S8KCd-2" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;fontColor=none;entryX=1.5;entryY=0.624;entryDx=0;entryDy=0;entryPerimeter=0;noLabel=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-334" y="311.08000000000004" as="targetPoint" />
+            <mxPoint x="-79" y="311" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
