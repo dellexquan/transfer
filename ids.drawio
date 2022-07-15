@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-15T05:42:57.953Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="XzC-KICUPtzg1dJ1HCG2" version="20.1.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-15T05:43:47.905Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="fNbahZ-bAYjjrIGyC4Yr" version="20.1.1" type="github" pages="7">
   <diagram id="swRwdmD24nRBNKfR8wYX" name="Overall">
     <mxGraphModel dx="3361" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -669,6 +669,42 @@
         </mxCell>
         <mxCell id="60YSGU3nvhdCub-GHOsX-1" value="1. 禁用AD用户时，会检查该用户对应的AD用户可以访问的Tenant的信息。&lt;br&gt;2. 如果AD用户只能访问的Tenant只剩最后一个，则将用户可以访问对的Tenant信息清空，同时删除该用户。&lt;br&gt;3. 如果剩余多个Tenant，则只是清空当前用户对应的Tenant。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-610" y="480" width="340" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="-3ttlUSmbDj9EHT_61Gz-1" value="Active Directory / Open LDAP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-99" y="70" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-3ttlUSmbDj9EHT_61Gz-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="-24" y="230" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-3ttlUSmbDj9EHT_61Gz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-78.5" y="230" as="sourcePoint" />
+            <mxPoint x="-78.5" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-3ttlUSmbDj9EHT_61Gz-4" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;fontColor=none;noLabel=1;entryX=1;entryY=0.818;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-221.5" y="359.05999999999995" as="targetPoint" />
+            <mxPoint x="-24" y="359.9999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-3ttlUSmbDj9EHT_61Gz-5" value="success / fail" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-155" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-3ttlUSmbDj9EHT_61Gz-6" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontColor=none;noLabel=1;exitX=1.25;exitY=0.118;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="-3ttlUSmbDj9EHT_61Gz-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-219" y="240.05999999999995" as="sourcePoint" />
+            <mxPoint x="-49" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-3ttlUSmbDj9EHT_61Gz-7" value="invalid(user)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-187" y="200" width="153" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-3ttlUSmbDj9EHT_61Gz-8" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.6;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-3ttlUSmbDj9EHT_61Gz-1" target="-3ttlUSmbDj9EHT_61Gz-2">
+          <mxGeometry x="-115.27999999999997" y="345" width="100" height="100" as="geometry">
+            <mxPoint x="-14" y="115" as="sourcePoint" />
+            <mxPoint x="-13.5" y="215" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
