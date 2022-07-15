@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-15T06:19:14.220Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="tzZoxXC1W0PLZxBFwj6Q" version="20.1.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-15T06:20:11.786Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="GW6HayfOrD4qw6CQbeXC" version="20.1.1" type="github" pages="7">
   <diagram id="swRwdmD24nRBNKfR8wYX" name="Overall">
     <mxGraphModel dx="3361" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -311,8 +311,8 @@
             <mxPoint x="924" y="749.6700000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OOMbWw3zKLaIPbsCGwsO-6" value="mfa_token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;" vertex="1" parent="1">
-          <mxGeometry x="600" y="720" width="190" height="30" as="geometry" />
+        <mxCell id="OOMbWw3zKLaIPbsCGwsO-6" value="verify(user_name, mfa_token, tenant)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="720" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OOMbWw3zKLaIPbsCGwsO-7" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontColor=none;noLabel=1;" edge="1" parent="1" source="OOMbWw3zKLaIPbsCGwsO-3">
           <mxGeometry relative="1" as="geometry">
@@ -356,7 +356,7 @@
             <mxPoint x="417" y="734.5700000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Hv8UN0bH1k5AOZ_-L0G9-8" value="login(user_name, password, tenant)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;" vertex="1" parent="1">
+        <mxCell id="Hv8UN0bH1k5AOZ_-L0G9-8" value="verfity(user_name, mfa_token, tenant)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;" vertex="1" parent="1">
           <mxGeometry x="202" y="694.5699999999999" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
