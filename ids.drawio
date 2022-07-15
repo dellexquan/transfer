@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-15T06:33:16.313Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="YHOrIPgmp3UpDIMNH54D" version="20.1.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-15T06:35:36.928Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="BGrlfVImqpuhJvTBbxyB" version="20.1.1" type="github" pages="7">
   <diagram id="swRwdmD24nRBNKfR8wYX" name="Overall">
     <mxGraphModel dx="3361" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -838,7 +838,7 @@
         <mxCell id="_vLncxr_IEYn2UinCR8Z-13" value="AD: User(@username=&quot;az-123&quot; || &quot;xyz@az.com&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_vLncxr_IEYn2UinCR8Z-1">
           <mxGeometry x="640" y="270" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QMM0N7QVfgKs8nyDElyM-0" value="&lt;p style=&quot;line-height: 1.4&quot;&gt;&lt;/p&gt;&lt;div style=&quot;text-align: left&quot;&gt;如果是外部员工，&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;1）可以用{公司代码}-{工号}的方式作为用户名称&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;2）也可以用公司邮箱作为用户名称&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;重点是用户名一定要同时包含企业信息和个人身份信息&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="_vLncxr_IEYn2UinCR8Z-1">
+        <mxCell id="QMM0N7QVfgKs8nyDElyM-0" value="&lt;p style=&quot;line-height: 1.4&quot;&gt;&lt;/p&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;div&gt;如果是外部员工，有以下几种用户名命名方式：&lt;/div&gt;&lt;div&gt;1）可以用{公司代码}-{工号}的方式作为用户名称&lt;/div&gt;&lt;div&gt;2）可以用公司邮箱作为用户名称&lt;/div&gt;&lt;div&gt;3）可以用{公司代码}-{手机号}的方式作为用户名称&lt;/div&gt;&lt;div&gt;4）可以用{公司代码}-{身份证后6位}的方式作为用户名称&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;重点是&lt;/div&gt;&lt;div&gt;1）用户名一定要同时包含企业信息和个人身份信息&lt;/div&gt;&lt;div&gt;2）一个企业用一种统一方式的方式命名&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="_vLncxr_IEYn2UinCR8Z-1">
           <mxGeometry x="210" y="450" width="400" height="160" as="geometry" />
         </mxCell>
       </root>
