@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-15T03:53:52.059Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="l4vFyvqzpEBAkyZeOPu0" version="20.1.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-15T03:54:22.475Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="LkhEATU-6jpkD1M65HES" version="20.1.1" type="github" pages="6">
   <diagram id="swRwdmD24nRBNKfR8wYX" name="Overall">
     <mxGraphModel dx="3361" dy="1805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -476,6 +476,9 @@
         </mxCell>
         <mxCell id="L1Mf95bSvP_y_2SZ22Zz-13" value="AD: User(@username=&quot;xyz@aon.com&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="L1Mf95bSvP_y_2SZ22Zz-1">
           <mxGeometry x="640" y="270" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XozQwCqU7QT5nh0J8-M1-0" value="&lt;p style=&quot;line-height: 1.4&quot;&gt;&lt;/p&gt;&lt;div style=&quot;text-align: left&quot;&gt;如果是我司内部员工，可以用公司邮箱&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="L1Mf95bSvP_y_2SZ22Zz-1">
+          <mxGeometry x="210" y="450" width="400" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
