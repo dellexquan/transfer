@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-15T04:43:42.718Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="LfZVxRkd6gDt5TYXF_H4" version="20.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-07-15T05:19:58.370Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="GEAas11ZvEVxqdEQvUK8" version="20.1.1" type="github" pages="9">
   <diagram id="swRwdmD24nRBNKfR8wYX" name="Overall">
     <mxGraphModel dx="3361" dy="1805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -295,6 +295,130 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram name="Login#2" id="_Wfz3NMBEmT7sMtxBxJj">
+    <mxGraphModel dx="2511" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-0" />
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-1" parent="FKMZ6QL55wnliXa2MSdZ-0" />
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-2" value="Front-end Client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FKMZ6QL55wnliXa2MSdZ-1">
+          <mxGeometry x="-710" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-3" value="Identity Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FKMZ6QL55wnliXa2MSdZ-1">
+          <mxGeometry x="-480" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-4" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="FKMZ6QL55wnliXa2MSdZ-1">
+          <mxGeometry x="-610.5" y="430" width="100" height="100" as="geometry">
+            <mxPoint x="-650.5" y="210" as="sourcePoint" />
+            <mxPoint x="-650" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="FKMZ6QL55wnliXa2MSdZ-1">
+          <mxGeometry x="-655" y="250" width="10" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-6" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fontColor=none;noLabel=1;" edge="1" parent="FKMZ6QL55wnliXa2MSdZ-1" target="FKMZ6QL55wnliXa2MSdZ-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-725" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-7" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;fontColor=none;noLabel=1;" edge="1" parent="FKMZ6QL55wnliXa2MSdZ-1" source="FKMZ6QL55wnliXa2MSdZ-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-730" y="564" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-8" value="external_login&lt;br&gt;(credentail, tenant, provider)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;" vertex="1" parent="FKMZ6QL55wnliXa2MSdZ-1">
+          <mxGeometry x="-840" y="220" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-9" value="new token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;" vertex="1" parent="FKMZ6QL55wnliXa2MSdZ-1">
+          <mxGeometry x="-740" y="530" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-10" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.2;entryY=0.088;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="FKMZ6QL55wnliXa2MSdZ-1" target="FKMZ6QL55wnliXa2MSdZ-11">
+          <mxGeometry x="-379.28" y="430" width="100" height="100" as="geometry">
+            <mxPoint x="-419.27999999999975" y="210" as="sourcePoint" />
+            <mxPoint x="-421" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=none;" vertex="1" parent="FKMZ6QL55wnliXa2MSdZ-1">
+          <mxGeometry x="-425" y="330" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-12" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fontColor=none;noLabel=1;exitX=0.8;exitY=0.242;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="FKMZ6QL55wnliXa2MSdZ-1" source="FKMZ6QL55wnliXa2MSdZ-5" target="FKMZ6QL55wnliXa2MSdZ-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-575" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-13" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;fontColor=none;noLabel=1;entryX=0.8;entryY=0.73;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="FKMZ6QL55wnliXa2MSdZ-1" source="FKMZ6QL55wnliXa2MSdZ-11" target="FKMZ6QL55wnliXa2MSdZ-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-570" y="491" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-14" value="external_login&lt;br&gt;(credentail, tenant, provider)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;" vertex="1" parent="FKMZ6QL55wnliXa2MSdZ-1">
+          <mxGeometry x="-640" y="290" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-15" value="new token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;" vertex="1" parent="FKMZ6QL55wnliXa2MSdZ-1">
+          <mxGeometry x="-630" y="460" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-16" value="Active Directory / Open LDAP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FKMZ6QL55wnliXa2MSdZ-1">
+          <mxGeometry x="30" y="160" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-17" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="FKMZ6QL55wnliXa2MSdZ-1" source="FKMZ6QL55wnliXa2MSdZ-16">
+          <mxGeometry x="161.86" y="437.52" width="100" height="100" as="geometry">
+            <mxPoint x="121.86000000000013" y="217.51999999999998" as="sourcePoint" />
+            <mxPoint x="118" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=none;" vertex="1" parent="FKMZ6QL55wnliXa2MSdZ-1">
+          <mxGeometry x="115" y="406" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-19" value="query_user(user_name)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;" vertex="1" parent="FKMZ6QL55wnliXa2MSdZ-1">
+          <mxGeometry x="-230" y="410" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-20" value="user_info" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;" vertex="1" parent="FKMZ6QL55wnliXa2MSdZ-1">
+          <mxGeometry x="-230" y="450" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-21" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontColor=none;exitX=1.5;exitY=0.176;exitDx=0;exitDy=0;exitPerimeter=0;noLabel=1;entryX=-0.3;entryY=0.378;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="FKMZ6QL55wnliXa2MSdZ-1" target="FKMZ6QL55wnliXa2MSdZ-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-415" y="441.99999999999994" as="sourcePoint" />
+            <mxPoint x="120" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-22" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontColor=none;entryX=1.5;entryY=0.624;entryDx=0;entryDy=0;entryPerimeter=0;noLabel=1;" edge="1" parent="FKMZ6QL55wnliXa2MSdZ-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-415" y="480.08000000000004" as="targetPoint" />
+            <mxPoint x="110" y="480" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-23" value="&lt;p style=&quot;line-height: 1.4&quot;&gt;&lt;/p&gt;&lt;div style=&quot;text-align: left&quot;&gt;1. 前端用户传输现有的token以及目标跳转的系统tenant给认证服务&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;2. 认证服务解析现有的token获得用户名，通过AD的接口用用户名查询用户信息&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;3. 认证服务利用用户信息中可以访问的Tenant，对Tenant参数进行比对&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;4. 如果比对通过，则返回前端用户在该tenant下对应的User的Token&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FKMZ6QL55wnliXa2MSdZ-1">
+          <mxGeometry x="-775" y="710" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FKMZ6QL55wnliXa2MSdZ-24" value="#1: Login with External Provider" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="FKMZ6QL55wnliXa2MSdZ-1">
+          <mxGeometry x="-475" y="50" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hpN6JUtjgw8UozkMj9e--0" value="External Provider" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FKMZ6QL55wnliXa2MSdZ-1">
+          <mxGeometry x="-240" y="160" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hpN6JUtjgw8UozkMj9e--1" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;dashed=1;exitX=0.561;exitY=1.02;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="FKMZ6QL55wnliXa2MSdZ-1" source="hpN6JUtjgw8UozkMj9e--0">
+          <mxGeometry x="-96.13999999999999" y="447.52" width="100" height="100" as="geometry">
+            <mxPoint x="-138" y="220" as="sourcePoint" />
+            <mxPoint x="-140" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-140" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpN6JUtjgw8UozkMj9e--2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=none;" vertex="1" parent="FKMZ6QL55wnliXa2MSdZ-1">
+          <mxGeometry x="-145" y="330" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hpN6JUtjgw8UozkMj9e--3" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontColor=none;entryX=1;entryY=0.347;entryDx=0;entryDy=0;entryPerimeter=0;noLabel=1;exitX=-0.1;exitY=0.843;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="FKMZ6QL55wnliXa2MSdZ-1" source="hpN6JUtjgw8UozkMj9e--2" target="FKMZ6QL55wnliXa2MSdZ-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-425" y="400.0799999999999" as="targetPoint" />
+            <mxPoint x="100" y="400" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpN6JUtjgw8UozkMj9e--5" value="user_name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;" vertex="1" parent="FKMZ6QL55wnliXa2MSdZ-1">
+          <mxGeometry x="-360" y="360" width="190" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="NVKxQo_jeS9WoxWdLjUH" name="SSO#1">
     <mxGraphModel dx="2511" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -325,7 +449,7 @@
             <mxPoint x="-730" y="564" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YNKhRGPFs1xEIjL73lB0-7" value="sso(token, tenant)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;" vertex="1" parent="1">
+        <mxCell id="YNKhRGPFs1xEIjL73lB0-7" value="switch_tenant(token, tenant)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;" vertex="1" parent="1">
           <mxGeometry x="-840" y="220" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YNKhRGPFs1xEIjL73lB0-8" value="new token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;" vertex="1" parent="1">
@@ -350,7 +474,7 @@
             <mxPoint x="-570" y="491" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YNKhRGPFs1xEIjL73lB0-13" value="sso(token, tenant)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;" vertex="1" parent="1">
+        <mxCell id="YNKhRGPFs1xEIjL73lB0-13" value="switch_tanent(token, tenant)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;" vertex="1" parent="1">
           <mxGeometry x="-640" y="290" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YNKhRGPFs1xEIjL73lB0-14" value="new token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=none;" vertex="1" parent="1">
@@ -626,6 +750,9 @@
             <mxPoint x="-78.5" y="230" as="sourcePoint" />
             <mxPoint x="-78.5" y="230" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="60YSGU3nvhdCub-GHOsX-1" value="&lt;p style=&quot;line-height: 1.4&quot;&gt;&lt;/p&gt;&lt;div style=&quot;text-align: left&quot;&gt;1. 禁用AD用户时，会先用username检验是否AD用户已存在，如果不存在，则创建。&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;2. 同时会更新AD用户可以访问的Tenant的信息。&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="480" width="400" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
