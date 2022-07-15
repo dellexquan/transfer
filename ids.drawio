@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-15T06:06:06.941Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="b3b6pzUQoF_lvHIvavQK" version="20.1.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-15T06:06:55.045Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="J7Zkhoxv7QbeF_kBBqS_" version="20.1.1" type="github" pages="7">
   <diagram id="swRwdmD24nRBNKfR8wYX" name="Overall">
     <mxGraphModel dx="3361" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="dLYd8MaffXc8T0qKadW--4" value="Middle-end" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dLYd8MaffXc8T0qKadW--3">
           <mxGeometry x="40" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dLYd8MaffXc8T0qKadW--6" value="Tenant: Flex" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="dLYd8MaffXc8T0qKadW--6" value="Tenants: Flex-xyz" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="330" y="230" width="200" height="390" as="geometry" />
         </mxCell>
         <mxCell id="dLYd8MaffXc8T0qKadW--7" value="Front-end" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dLYd8MaffXc8T0qKadW--6">
