@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T01:50:01.536Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="P13PvdkkEotfF1dVpfF-" version="20.1.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-18T02:08:19.464Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="2fVg2_0lOLqbi5DIjSLl" version="20.1.1" type="github" pages="7">
   <diagram id="swRwdmD24nRBNKfR8wYX" name="Overall">
     <mxGraphModel dx="3362" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -58,13 +58,13 @@
         <mxCell id="dLYd8MaffXc8T0qKadW--22" value="Module: Rewards" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="-720" y="240" width="150" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="dLYd8MaffXc8T0qKadW--23" value="Application Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="dLYd8MaffXc8T0qKadW--22" vertex="1">
+        <mxCell id="dLYd8MaffXc8T0qKadW--23" value="Survey" style="rounded=0;whiteSpace=wrap;html=1;" parent="dLYd8MaffXc8T0qKadW--22" vertex="1">
           <mxGeometry x="15" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dLYd8MaffXc8T0qKadW--31" value="Domian Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="dLYd8MaffXc8T0qKadW--22" vertex="1">
+        <mxCell id="dLYd8MaffXc8T0qKadW--31" value="Data" style="rounded=0;whiteSpace=wrap;html=1;" parent="dLYd8MaffXc8T0qKadW--22" vertex="1">
           <mxGeometry x="15" y="125" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dLYd8MaffXc8T0qKadW--35" value="Repository" style="rounded=0;whiteSpace=wrap;html=1;" parent="dLYd8MaffXc8T0qKadW--22" vertex="1">
+        <mxCell id="dLYd8MaffXc8T0qKadW--35" value="Report" style="rounded=0;whiteSpace=wrap;html=1;" parent="dLYd8MaffXc8T0qKadW--22" vertex="1">
           <mxGeometry x="15" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dLYd8MaffXc8T0qKadW--24" value="Module: Common" style="swimlane;startSize=23;" parent="1" vertex="1">
@@ -94,13 +94,13 @@
         <mxCell id="dLYd8MaffXc8T0qKadW--28" value="Module: HBEM" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="-420" y="240" width="150" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="dLYd8MaffXc8T0qKadW--29" value="Application Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="dLYd8MaffXc8T0qKadW--28" vertex="1">
+        <mxCell id="dLYd8MaffXc8T0qKadW--29" value="Market" style="rounded=0;whiteSpace=wrap;html=1;" parent="dLYd8MaffXc8T0qKadW--28" vertex="1">
           <mxGeometry x="15" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dLYd8MaffXc8T0qKadW--33" value="Domian Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="dLYd8MaffXc8T0qKadW--28" vertex="1">
+        <mxCell id="dLYd8MaffXc8T0qKadW--33" value="Product" style="rounded=0;whiteSpace=wrap;html=1;" parent="dLYd8MaffXc8T0qKadW--28" vertex="1">
           <mxGeometry x="15" y="125" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dLYd8MaffXc8T0qKadW--37" value="Repository" style="rounded=0;whiteSpace=wrap;html=1;" parent="dLYd8MaffXc8T0qKadW--28" vertex="1">
+        <mxCell id="dLYd8MaffXc8T0qKadW--37" value="Order" style="rounded=0;whiteSpace=wrap;html=1;" parent="dLYd8MaffXc8T0qKadW--28" vertex="1">
           <mxGeometry x="15" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dLYd8MaffXc8T0qKadW--40" value="API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
