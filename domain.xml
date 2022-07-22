@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-22T02:07:18.636Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="THmhxxHqcMyaaByWLfUx" version="20.1.3" type="github" pages="22">
+<mxfile host="app.diagrams.net" modified="2022-07-22T02:07:47.670Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="bfpgxZAUOQlln5EyYRow" version="20.1.3" type="github" pages="22">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -689,7 +689,7 @@
         <mxCell id="Gy1oY4CZnz8Y6dtJSJwA-2" value="ReportNPDDataSet: AggregateRoot" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="Gy1oY4CZnz8Y6dtJSJwA-1" vertex="1">
           <mxGeometry x="290" y="630" width="320" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="Gy1oY4CZnz8Y6dtJSJwA-3" value="+ Id: guid&#xa;+ SurveyCode: string&#xa;+ PeriodCode: string&#xa;+ ReportProfileId: guid&#xa;+ ReleasedDataSetId: guid&#xa;+ Status: ReportDataSetStatus&#xa;+ Headers: List&lt;ReportNPDDataHeader&gt;&#xa;+ Rows: List&lt;ReportNPDDataRows&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Gy1oY4CZnz8Y6dtJSJwA-2" vertex="1">
+        <mxCell id="Gy1oY4CZnz8Y6dtJSJwA-3" value="+ Id: guid&#xa;+ SurveyCode: string&#xa;+ PeriodCode: string&#xa;+ ReportProfileId: guid&#xa;+ ReleasedDataSetId: guid&#xa;+ IsReadOnly: boolean&#xa;+ Status: ReportDataSetStatus&#xa;+ Headers: List&lt;ReportNPDDataHeader&gt;&#xa;+ Rows: List&lt;ReportNPDDataRows&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Gy1oY4CZnz8Y6dtJSJwA-2" vertex="1">
           <mxGeometry y="26" width="320" height="164" as="geometry" />
         </mxCell>
         <mxCell id="Gy1oY4CZnz8Y6dtJSJwA-4" value="ReportNPDDataHeader: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="Gy1oY4CZnz8Y6dtJSJwA-1" vertex="1">
