@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-22T02:31:39.280Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="nT2_Pe9VRMVMtncodPAj" version="20.1.3" type="github" pages="23">
+<mxfile host="app.diagrams.net" modified="2022-07-22T02:34:24.115Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="A2KWdwYike8Yb2aYhUNK" version="20.1.3" type="github" pages="23">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -783,6 +783,18 @@
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="310" y="890" as="sourcePoint" />
             <mxPoint x="450" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RH-4TtluNWoSCT0pfA4u-10" value="NPDReportProfileQuestionDetail: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="283" y="870" width="320" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="RH-4TtluNWoSCT0pfA4u-11" value="+ Id: guid&#xa;+ Code: string&#xa;+ ReportProfileQuestionId: guid&#xa;+ Name: string&#xa;+ AliasName: string&#xa;+ Formula: string&#xa;+ NPDReportProfileQuestionDetailIds: jsonb&#xa;+ DimCount: int&#xa;+ SortCode: int&#xa;+ Dim1: string&#xa;+ Dim2: string&#xa;+ Dim3: string&#xa;+ Dim4: string&#xa;+ Dim5: string&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RH-4TtluNWoSCT0pfA4u-10">
+          <mxGeometry y="26" width="320" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="RH-4TtluNWoSCT0pfA4u-12" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.503;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.525;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="449.50000000000006" y="790.002" as="sourcePoint" />
+            <mxPoint x="449.54" y="870.94" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
