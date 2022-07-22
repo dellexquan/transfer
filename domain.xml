@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-22T02:31:07.582Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="ebZBlvmuvtNeOUohJQVp" version="20.1.3" type="github" pages="23">
+<mxfile host="app.diagrams.net" modified="2022-07-22T02:31:39.280Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="nT2_Pe9VRMVMtncodPAj" version="20.1.3" type="github" pages="23">
   <diagram id="9SR1pVzvw6KQcXwP3A57" name="Data Processing">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -767,7 +767,7 @@
         <mxCell id="RH-4TtluNWoSCT0pfA4u-4" value="NPDReportProfileQuestion: Entity" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="283" y="630" width="320" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="RH-4TtluNWoSCT0pfA4u-5" value="+ Id: guid&#xa;+ Code: string&#xa;+ SectionName: string&#xa;+ ReportProfileId: guid&#xa;+ Name: string&#xa;+ Type: NPDReportProfileQuestionType&#xa;+ Details: List&lt;NPDReportProfileQuestionDetail&gt;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RH-4TtluNWoSCT0pfA4u-4">
+        <mxCell id="RH-4TtluNWoSCT0pfA4u-5" value="+ Id: guid&#xa;+ Code: string&#xa;+ SectionName: string&#xa;+ ReportProfileId: guid&#xa;+ Name: string&#xa;+ CalculateIncludeNull: boolean&#xa;+ Type: NPDReportProfileQuestionType&#xa;+ Details: List&lt;NPDReportProfileQuestionDetail&gt;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RH-4TtluNWoSCT0pfA4u-4">
           <mxGeometry y="26" width="320" height="134" as="geometry" />
         </mxCell>
         <mxCell id="RH-4TtluNWoSCT0pfA4u-6" value="NPDReportProfileQuestionType&#xa;: Enum" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
